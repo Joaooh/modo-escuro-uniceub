@@ -5,6 +5,11 @@
   "description": "Deixa o Espaço Aluno do UniCEUB muito mais agradável aos olhos!",
   "permissions": ["storage", "scripting", "declarativeNetRequest"],
   "host_permissions": ["https://ea.uniceub.br/*"],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{bbd2665c-8d76-46ae-8bbf-efc8031bf997}"
+    }
+  },
   "action": {
     "default_popup": "popup/popup.html",
     "default_icon": {

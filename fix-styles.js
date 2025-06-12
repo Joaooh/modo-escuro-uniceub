@@ -120,9 +120,22 @@ function addExtensionCreditsOnce() {
 
   if (copyrightElement) {
     if (!copyrightElement.querySelector("#extension-credits")) {
-      const creditTextContent =
-        ' | <span id="extension-credits" style="color: #e0e0e0;">Modo Escuro por João G. Torres <a href="https://github.com/Joaooh/modo-escuro-uniceub" target="_blank" style="color: #8cb4ff !important; text-decoration: none;">(GitHub)</a></span>';
-      copyrightElement.innerHTML += creditTextContent;
+      const creditsSpan = document.createElement("span");
+      creditsSpan.id = "extension-credits";
+      creditsSpan.style.color = "#e0e0e0";
+      creditsSpan.textContent = "Modo Escuro por João G. Torres ";
+
+      const githubLink = document.createElement("a");
+      githubLink.href = "https://github.com/Joaooh/modo-escuro-uniceub";
+      githubLink.target = "_blank";
+      githubLink.style.setProperty("color", "#8cb4ff", "important");
+      githubLink.style.textDecoration = "none";
+      githubLink.textContent = "(GitHub)";
+
+      creditsSpan.appendChild(githubLink);
+      const separatorText = document.createTextNode(" | ");
+      copyrightElement.appendChild(separatorText);
+      copyrightElement.appendChild(creditsSpan);
 
       creditsAdded = true;
     }
