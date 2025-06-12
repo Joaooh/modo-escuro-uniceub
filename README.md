@@ -8,9 +8,11 @@ A Firefox browser extension that applies a **custom dark mode** to the **UniCEUB
 
 ## 📷 Preview
 
-| Before | After (with dark mode) |
+| Before | After (with Dark Mode) |
 |--------|------------------------|
-| ![Before](screenshots/before.png) | ![After](screenshots/after.png) |
+| <img src="screenshots/login-screen-before.png" width="400" alt="Original login screen"> | <img src="screenshots/login-screen-after.png" width="400" alt="Dark login screen"> |
+| <img src="screenshots/homepage-before.png" width="400" alt="Original homepage"> | <img src="screenshots/homepage-after.png" width="400" alt="Dark homepage"> |
+| <img src="screenshots/subjects-before.png" width="400" alt="Original subjects page"> | <img src="screenshots/subjects-after.png" width="400" alt="Dark subjects page"> |
 
 ---
 
