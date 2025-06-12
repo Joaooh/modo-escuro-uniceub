@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "Modo Escuro - Espaço Aluno",
+  "version": "1.1",
+  "description": "Deixa o Espaço Aluno do UniCEUB muito mais agradável aos olhos!",
+  "permissions": ["storage", "scripting", "declarativeNetRequest"],
+  "host_permissions": ["https://ea.uniceub.br/*"],
+  "action": {
+    "default_popup": "popup/popup.html",
+    "default_icon": {
+      "16": "icons/icon-16.png",
+      "48": "icons/icon-48.png",
+      "128": "icons/icon-128.png"
+    }
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://ea.uniceub.br/*"],
+      "js": ["fix-styles.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "icons": {
+    "16": "icons/icon-16.png",
+    "48": "icons/icon-48.png",
+    "128": "icons/icon-128.png"
+  }
+}

@@ -1,0 +1,130 @@
+body {
+  width: 200px;
+  min-height: 120px;
+  margin: 0;
+  background-color: #2b2b2b;
+  font-family: Arial, sans-serif;
+  color: #e0e0e0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+.menu-item {
+  padding: 8px 0;
+  display: flex;
+  align-items: center;
+}
+
+/* Toggle Switch */
+.toggle-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.1em;
+  font-weight: bold;
+  padding: 8px 0;
+}
+
+.toggle-section .toggle-label {
+  margin-right: 8px;
+}
+
+.toggle-switch {
+  position: relative;
+  display: inline-block;
+  width: 45px;
+  height: 25px;
+}
+
+.toggle-switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #3c3c3c;
+  transition: 0.2s;
+  border-radius: 25px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 19px;
+  width: 19px;
+  left: 3px;
+  bottom: 3px;
+  background-color: #f0f0f0;
+  transition: 0.2s;
+  border-radius: 50%;
+}
+
+input:checked + .slider {
+  background-color: #9c2279;
+}
+
+input:checked + .slider:before {
+  transform: translateX(20px);
+}
+
+/* Divider */
+.divider {
+  border-top: 1px solid #444;
+  margin: 5px 0;
+}
+
+/* Credits Section */
+.credits-section {
+  text-align: center;
+  font-size: 0.8em;
+  color: #ccc;
+  flex-direction: column;
+  gap: 3px;
+  width: 100%;
+}
+
+.credits-section p {
+  margin: 0;
+  line-height: 1.3;
+}
+
+.credits-section a {
+  color: #8cb4ff !important;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.88em;
+}
+
+.credits-section a:hover {
+  text-decoration: underline;
+}
+
+/* Disclaimer */
+.credits-section .disclaimer {
+  font-size: 0.82em;
+  color: #a0a0a0;
+  margin-bottom: 5px;
+}
+
+/* Disabled State */
+body.disabled-popup {
+  opacity: 0.7;
+  pointer-events: none;
+}
