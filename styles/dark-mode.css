@@ -110,7 +110,7 @@ body > div:first-child + div {
   bottom: -1px;
   left: 0;
   z-index: 100;
-  border-bottom: 1px solid rgb(68, 68, 68) !important;
+  border-bottom: 2px solid rgb(68, 68, 68) !important;
 }
 .row[id="menu-topo"] {
   overflow: hidden !important;
@@ -139,7 +139,7 @@ body {
 }
 .navbar.white-bg {
   background-color: #2a2a2e !important;
-  border-bottom: 1px solid #444 !important;
+  border-bottom: 2px solid #444444 !important;
 }
 .row.wrapper.border-bottom.white-bg.page-heading {
   background-color: #2a2a2e !important;
@@ -172,6 +172,7 @@ ul.navbar-right > li > a {
   border: none !important;
   box-shadow: none !important;
   color: #e0e0e0 !important;
+  border-bottom: 3px solid #444444 !important;
 }
 .ibox-content {
   background-color: #2a2a2e !important;
@@ -213,6 +214,7 @@ ul.navbar-right > li > a {
   background-color: #1d1d1d !important;
 }
 #modalConfirma,
+#qrCode,
 #modal-matricula,
 #professor-modal-54134,
 #professor-modal-54135,
@@ -237,6 +239,9 @@ ul.navbar-right > li > a {
 }
 .panel-heading {
   background-color: #2a2a2e !important;
+}
+.row.m-t-n.background-dark-purple {
+  background-color: #7a1a5f !important;
 }
 
 /* Atividade Complementar Section */
@@ -511,10 +516,16 @@ tr.tr_li:hover {
 }
 
 /* Icons and Logos */
-.col-lg-12.col-md-12.col-sm-12.col-xs-12 .fa.fa-info-circle {
+.col-lg-12.col-md-12.col-sm-12.col-xs-12 .alert.alert-info .fa.fa-info-circle {
   color: #31708f !important;
 }
-.col-lg-12.col-md-12.col-sm-12.col-xs-12.text-purple.animated.fadeIn i {
+.col-lg-12.col-md-12.col-sm-12.col-xs-12.text-purple.animated.fadeIn i,
+.col-lg-12.col-md-12.col-sm-12.col-xs-12
+  .alert.alert-warning.text-center
+  .fa.fa-camera,
+.col-lg-12.col-md-12.col-sm-12.col-xs-12
+  .alert.alert-warning.text-center
+  .fa.fa-warning {
   color: #8a6d3b !important;
 }
 .fa-timeline-item,

@@ -167,7 +167,6 @@ function addExtensionCreditsOnce() {
   }
 }
 
-// Debounce para reduzir chamadas repetidas
 let debounceTimeout;
 const debounceFixes = () => {
   clearTimeout(debounceTimeout);
