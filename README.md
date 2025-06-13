@@ -1,6 +1,6 @@
 # 🌓 UniCEUB Dark Mode
 
-A Firefox browser extension that applies a **custom dark mode** to the **UniCEUB university website**. Ideal for studying or browsing at night or for long periods without straining your eyes.
+A browser extension that applies a **custom dark mode** to the **UniCEUB university website**. Ideal for studying or browsing at night or for long periods without straining your eyes.
 
 > ⚠️ This extension does not alter the functionality of the page — only its visual style.
 
@@ -8,9 +8,11 @@ A Firefox browser extension that applies a **custom dark mode** to the **UniCEUB
 
 ## 📷 Preview
 
-| Before | After (with dark mode) |
+| Before | After (with Dark Mode) |
 |--------|------------------------|
-| ![Before](screenshots/before.png) | ![After](screenshots/after.png) |
+| <img src="screenshots/login-screen-before.png" width="400" alt="Original login screen"> | <img src="screenshots/login-screen-after.png" width="400" alt="Dark login screen"> |
+| <img src="screenshots/homepage-before.png" width="400" alt="Original homepage"> | <img src="screenshots/homepage-after.png" width="400" alt="Dark homepage"> |
+| <img src="screenshots/subjects-before.png" width="400" alt="Original subjects page"> | <img src="screenshots/subjects-after.png" width="400" alt="Dark subjects page"> |
 
 ---
 
@@ -20,23 +22,31 @@ A Firefox browser extension that applies a **custom dark mode** to the **UniCEUB
 - Maintains contrast and accessibility
 - Automatically activates on university pages
 - Lightweight: CSS injected dynamically
-- No external dependencies
 
 ---
 
-## 🔧 How to install (developer mode)
+## 🚀 How to Install
 
-### Firefox
+You can install the extension using the following methods, depending on your browser:
 
-1. Download this repository:
-   ```bash
-   git clone https://github.com/Joaooh/modo-escuro-uniceub.git
-   ```
-2. Go to `about:debugging#/runtime/this-firefox` in the browser
-3. Click **"Load Temporary Add-on..."**
-4. Select the `manifest.json` file from the project folder
+### 🦊 For Mozilla Firefox
 
-> The extension will be removed when Firefox is closed. For permanent use, you can repackage it or wait for a possible future release on the Mozilla Add-ons store (no guarantees).
+1.  Download the latest `firefox.zip` file directly from the project's [Releases](https://github.com/Joaooh/modo-escuro-uniceub/releases) page.
+2.  Unzip the file you just downloaded.
+3.  Open Firefox and navigate to `about:debugging#/runtime/this-firefox`.
+4.  Click **"Load Temporary Add-on..."**
+5.  Select the `manifest.json` file from the extension folder.
+
+> The extension will be active until Firefox is closed.<br>
+> For permanent use, wait for a possible future release on the Mozilla Add-ons store.
+
+### 🌐 For Google Chrome / Microsoft Edge
+
+1.  Download the latest `chromium.zip` file directly from the project's [Releases](https://github.com/Joaooh/modo-escuro-uniceub/releases) page.
+2.  Unzip the file you just downloaded.
+3.  Open Chrome/Edge and navigate to the extensions page (e.g., `chrome://extensions`).
+4.  Ensure "**Developer mode**" is enabled.
+4.  Click **"Load unpacked"** and select the extension's folder (`chrome`).
 
 ---
 
@@ -72,8 +82,8 @@ modo-escuro-uniceub/
 | Browser  | Compatible |
 |----------|------------|
 | Firefox  | ✅ Fully compatible |
-| Chrome   | 🚧 Adaptable with `manifest.json` changes |
-| Edge     | ❌ Not tested |
+| Chrome   | ✅ Fully compatible |
+| Edge     | ✅ Fully compatible |
 
 ---
 

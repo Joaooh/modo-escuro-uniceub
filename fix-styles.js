@@ -1,178 +1,191 @@
 function fixAllInlineStyles() {
-  const problematicButtons = document.querySelectorAll(
-    'button[id^="btn-andamento-"][style*="color:black!important"]'
-  );
-  problematicButtons.forEach((button) => {
-    button.style.setProperty("color", "#ffffff", "important");
-  });
+  const fixColor = (selector, expected) => {
+    const elements = document.querySelectorAll(selector);
+    if (!elements.length) return;
+    elements.forEach((el) => {
+      if (el.style.color !== expected)
+        el.style.setProperty("color", expected, "important");
+    });
+  };
 
-  const problematicTabs = document.querySelectorAll(
-    'a[data-toggle="tab"][style*="color"]'
-  );
-  problematicTabs.forEach((tab) => {
-    tab.style.setProperty("color", "#ffffff", "important");
-  });
+  const fixBorderColor = (selector, expected) => {
+    const elements = document.querySelectorAll(selector);
+    if (!elements.length) return;
+    elements.forEach((el) => {
+      el.style.setProperty("border-left-color", expected, "important");
+    });
+  };
 
-  const problematicBorders = document.querySelectorAll(
-    '[style*="border-left:2px solid #43054e !important"]'
-  );
-  problematicBorders.forEach((element) => {
-    element.style.setProperty("border-left-color", "#9c2279", "important");
-  });
+  const fixBackground = (selector, bg, border, shadow) => {
+    const elements = document.querySelectorAll(selector);
+    if (!elements.length) return;
+    elements.forEach((el) => {
+      el.style.setProperty("background-color", bg, "important");
+      el.style.setProperty("border-color", border, "important");
+      el.style.setProperty("box-shadow", shadow, "important");
+    });
+  };
 
-  const problematicTitle = document.querySelector(
+  fixColor(
+    'button[id^="btn-andamento-"][style*="color:black!important"]',
+    "#ffffff"
+  );
+  fixColor('a[data-toggle="tab"][style*="color"]', "#ffffff");
+  fixBorderColor(
+    '[style*="border-left:2px solid #43054e !important"]',
+    "#9c2279"
+  );
+
+  const title = document.querySelector(
     'h1.text-primary[style*="color:#43054e"]'
   );
-  if (problematicTitle) {
-    problematicTitle.style.setProperty("color", "#9c2279", "important");
+  if (title && title.style.color !== "#9c2279") {
+    title.style.setProperty("color", "#9c2279", "important");
   }
 
-  const problematicSwitches = document.querySelectorAll(
-    '.switchery[style*="background-color: rgb(67, 5, 78)"]'
+  fixBackground(
+    '.switchery[style*="background-color: rgb(67, 5, 78)"]',
+    "#9c2279",
+    "#9c2279",
+    "#9c2279 0px 0px 0px 11px inset"
   );
-  problematicSwitches.forEach((element) => {
-    element.style.setProperty("background-color", "#9c2279", "important");
-    element.style.setProperty("border-color", "#9c2279", "important");
-    element.style.setProperty(
-      "box-shadow",
-      "#9c2279 0px 0px 0px 11px inset",
-      "important"
-    );
-  });
 
-  const problematicStars = document.querySelectorAll(
-    'i.fa-star[style*="color:#43054e"]'
-  );
-  problematicStars.forEach((star) => {
-    star.style.setProperty("color", "#9c2279", "important");
-  });
+  fixColor('i.fa-star[style*="color:#43054e"]', "#9c2279");
 
-  // Restore original colors for notes and absences
-  const coloredNotes = document.querySelectorAll(
+  const restoreColors = document.querySelectorAll(
     '.ibox-content b[style*="color: #60B044"], ' +
       '.ibox-content b[style*="color: #FF0000"], ' +
       '.ibox-content snap[style*="color: #60B044"], ' +
       '.ibox-content span[style*="color: #60B044"], ' +
       '.ibox-content span[style*="color: #FF0000"]'
   );
-  coloredNotes.forEach((element) => {
-    const originalColor = element.style.color;
-    if (originalColor) {
-      element.style.setProperty("color", originalColor, "important");
+  restoreColors.forEach((el) => {
+    if (el.style.color) {
+      el.style.setProperty("color", el.style.color, "important");
     }
   });
 
-  // Make hyphens (originally black) white in dark mode
-  const blackHyphensB = document.querySelectorAll(
-    '.ibox-content b[style*="color: #000000"], ' +
-      ".ibox-content table.issue-tracker b:not([style])"
+  fixColor(
+    '.ibox-content b[style*="color: #000000"], .ibox-content table.issue-tracker b:not([style])',
+    "#e0e0e0"
   );
-  blackHyphensB.forEach((element) => {
-    element.style.setProperty("color", "#e0e0e0", "important");
-  });
+  fixColor('.ibox-content span[style*="color: #000000"] b', "#e0e0e0");
 
-  const blackHyphensSpan = document.querySelectorAll(
-    '.ibox-content span[style*="color: #000000"] b'
-  );
-  blackHyphensSpan.forEach((element) => {
-    element.style.setProperty("color", "#e0e0e0", "important");
-  });
+  document
+    .querySelectorAll(
+      ".ibox-content td.col-lg-1.visible-lg.visible-md, .ibox-content td.col-lg-3.visible-lg.visible-md"
+    )
+    .forEach((el) => {
+      const t = el.textContent;
+      if (t.includes("F:") || t.includes("MP:") || t.includes("MF:")) {
+        el.style.setProperty("color", "#e0e0e0", "important");
+      }
+    });
 
-  const desktopLabelTexts = document.querySelectorAll(
-    ".ibox-content td.col-lg-1.visible-lg.visible-md, " +
-      ".ibox-content td.col-lg-3.visible-lg.visible-md"
-  );
-  desktopLabelTexts.forEach((element) => {
-    const textContent = element.textContent;
-    if (
-      textContent.includes("F:") ||
-      textContent.includes("MP:") ||
-      textContent.includes("MF:")
-    ) {
-      element.style.setProperty("color", "#e0e0e0", "important");
-    }
-  });
+  document
+    .querySelectorAll(".ibox-content .visible-sm.visible-xs p small")
+    .forEach((el) => {
+      const t = el.textContent;
+      if (
+        t.includes("Faltas:") ||
+        t.includes("Menções Parciais:") ||
+        t.includes("Menção Final:")
+      ) {
+        el.style.setProperty("color", "#e0e0e0", "important");
+      }
+    });
 
-  const mobileLabelTexts = document.querySelectorAll(
-    ".ibox-content .visible-sm.visible-xs p small"
-  );
-  mobileLabelTexts.forEach((element) => {
-    const textContent = element.textContent;
-    if (
-      textContent.includes("Faltas:") ||
-      textContent.includes("Menções Parciais:") ||
-      textContent.includes("Menção Final:")
-    ) {
-      element.style.setProperty("color", "#e0e0e0", "important");
-    }
-  });
+  fixColor('i.fa-expand[style*="color:#000"]', "#f0f0f0");
 }
 
-// Control flag to ensure credits are added only once
+function setupSidebarIconColorsPersistent() {
+  const andamento = document.getElementById("a-tipo-andamento");
+  const inscrito = document.getElementById("a-tipo-inscrito");
+  if (!andamento || !inscrito) return;
+
+  const updateIcons = () => {
+    const aIcon = andamento.querySelector("i.fa-filter");
+    const iIcon = inscrito.querySelector("i.fa-filter");
+    if (!aIcon || !iIcon) return;
+
+    const selected =
+      andamento.classList.contains("selected") ||
+      andamento.getAttribute("aria-selected") === "true" ||
+      andamento.style.fontWeight === "bold";
+
+    aIcon.style.setProperty(
+      "color",
+      selected ? "#9c2279" : "#e0e0e0",
+      "important"
+    );
+    iIcon.style.setProperty(
+      "color",
+      selected ? "#e0e0e0" : "#9c2279",
+      "important"
+    );
+  };
+
+  updateIcons();
+
+  const folder = andamento.closest(".folder-list");
+  if (!folder) return;
+
+  const observer = new MutationObserver(updateIcons);
+  observer.observe(folder, {
+    childList: true,
+    subtree: true,
+    attributes: true,
+    characterData: true,
+  });
+
+  [andamento, inscrito].forEach((el) =>
+    el.addEventListener("click", () => setTimeout(updateIcons, 100))
+  );
+}
+
 let creditsAdded = false;
 
 function addExtensionCreditsOnce() {
-  if (creditsAdded) {
-    return;
-  }
+  if (creditsAdded) return;
+  const footer = document.querySelector(".footer > div:last-child");
+  if (footer && !footer.querySelector("#extension-credits")) {
+    const span = document.createElement("span");
+    span.id = "extension-credits";
+    span.style.color = "#e0e0e0";
+    span.textContent = "Modo Escuro por João G. Torres ";
 
-  const copyrightElement = document.querySelector(".footer > div:last-child");
+    const link = document.createElement("a");
+    link.href = "https://github.com/Joaooh/modo-escuro-uniceub";
+    link.target = "_blank";
+    link.style.setProperty("color", "#8cb4ff", "important");
+    link.style.textDecoration = "none";
+    link.textContent = "(GitHub)";
 
-  if (copyrightElement) {
-    if (!copyrightElement.querySelector("#extension-credits")) {
-      const creditsSpan = document.createElement("span");
-      creditsSpan.id = "extension-credits";
-      creditsSpan.style.color = "#e0e0e0";
-      creditsSpan.textContent = "Modo Escuro por João G. Torres ";
-
-      const githubLink = document.createElement("a");
-      githubLink.href = "https://github.com/Joaooh/modo-escuro-uniceub";
-      githubLink.target = "_blank";
-      githubLink.style.setProperty("color", "#8cb4ff", "important");
-      githubLink.style.textDecoration = "none";
-      githubLink.textContent = "(GitHub)";
-
-      creditsSpan.appendChild(githubLink);
-      const separatorText = document.createTextNode(" | ");
-      copyrightElement.appendChild(separatorText);
-      copyrightElement.appendChild(creditsSpan);
-
-      creditsAdded = true;
-    }
+    span.appendChild(link);
+    footer.append(" | ", span);
+    creditsAdded = true;
   }
 }
 
-// Execution and Observation Logic
-document.addEventListener("DOMContentLoaded", () => {
-  fixAllInlineStyles();
-  addExtensionCreditsOnce();
-});
-
-const observer = new MutationObserver((mutations) => {
-  let shouldRunFixStyles = false;
-  let shouldTryAddCredits = false;
-
-  for (const mutation of mutations) {
-    if (
-      (mutation.type === "childList" && mutation.addedNodes.length > 0) ||
-      mutation.type === "attributes"
-    ) {
-      shouldRunFixStyles = true;
-      if (!creditsAdded) {
-        shouldTryAddCredits = true;
-      }
-    }
-  }
-
-  if (shouldRunFixStyles) {
+// Debounce para reduzir chamadas repetidas
+let debounceTimeout;
+const debounceFixes = () => {
+  clearTimeout(debounceTimeout);
+  debounceTimeout = setTimeout(() => {
     fixAllInlineStyles();
-  }
-  if (shouldTryAddCredits) {
     addExtensionCreditsOnce();
-  }
+    setupSidebarIconColorsPersistent();
+  }, 150);
+};
+
+browser.runtime.onMessage.addListener((message) => {
+  if (message.ping) return true;
+  if (message.action === "apply_fixes") debounceFixes();
 });
 
-// Start observing the document body
+document.addEventListener("DOMContentLoaded", debounceFixes);
+
+const observer = new MutationObserver(debounceFixes);
 observer.observe(document.body, {
   childList: true,
   subtree: true,
