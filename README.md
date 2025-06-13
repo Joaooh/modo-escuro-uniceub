@@ -1,6 +1,4 @@
-<p align="left">
-  <a href="#🇧🇷-versão-em-português">🇧🇷 Versão em Português</a>
-</p>
+[🇧🇷 Versão em Português](#🇧🇷-versão-em-português)
 
 # 🌓 UniCEUB Dark Mode
 
