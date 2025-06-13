@@ -1,4 +1,4 @@
-[🇧🇷 Versão em Português](#🇧🇷-versão-em-português)
+[🇧🇷 Versão em Português](#versao-em-portugues)
 
 # 🌓 UniCEUB Dark Mode
 
@@ -101,7 +101,7 @@ Distributed under the **MIT** license. See `LICENSE` for more information.
 
 ---
 
-## 🇧🇷 Versão em Português
+<h2 id="versao-em-portugues">🇧🇷 Versão em Português</h2>
 
 # 🌓 Modo Escuro UniCEUB
 
