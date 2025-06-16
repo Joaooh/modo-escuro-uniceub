@@ -1,3 +1,63 @@
+function setupPeriodoFiltroIcons() {
+  const filtroElements = document.querySelectorAll('a[id^="periodo_filtro_"]');
+
+  if (filtroElements.length === 0) {
+    return;
+  }
+
+  const updateIconColors = () => {
+    filtroElements.forEach((element) => {
+      const icon = element.querySelector("i.fa-filter");
+      const textSpan = element.querySelector("span");
+
+      if (!icon || !textSpan) {
+        return;
+      }
+
+      const isSelected = textSpan.classList.contains("font-bold");
+      const newColor = isSelected ? "#9c2279" : "#e0e0e0";
+
+      icon.style.setProperty("color", newColor, "important");
+    });
+  };
+
+  updateIconColors();
+
+  filtroElements.forEach((element) => {
+    element.addEventListener("click", () => {
+      setTimeout(updateIconColors, 10);
+    });
+  });
+}
+
+function setupGradeFiltroIcons() {
+  const filtroLinks = document.querySelectorAll('a.load[href*="/Academico/Disciplinas/Painel"]');
+
+  if (filtroLinks.length === 0) {
+    return;
+  }
+
+  const updateIconColors = () => {
+    filtroLinks.forEach(link => {
+      const icon = link.querySelector('i.fa-filter');
+      if (!icon) return;
+
+      const isSelected = link.style.fontWeight === 'bold';
+      const newColor = isSelected ? '#9c2279' : '#e0e0e0';
+
+      icon.style.setProperty('color', newColor, 'important');
+    });
+  };
+
+  updateIconColors();
+
+  filtroLinks.forEach(link => {
+    link.addEventListener('click', () => {
+      setTimeout(updateIconColors, 10);
+    });
+  });
+}
+
 function fixAllInlineStyles() {
   const fixColor = (selector, expected) => {
     const elements = document.querySelectorAll(selector);
@@ -96,6 +156,8 @@ function fixAllInlineStyles() {
     });
 
   fixColor('i.fa-expand[style*="color:#000"]', "#f0f0f0");
+  setupPeriodoFiltroIcons();
+  setupGradeFiltroIcons();
 }
 
 function setupSidebarIconColorsPersistent() {

@@ -440,7 +440,10 @@ h2:has(i.fa-calendar) {
 .c3 text {
   fill: #f5f5f5 !important;
 }
-.folder-list li a {
+.ibox-content a.load[href*="/Academico/Disciplinas/Painel"] {
+  color: #f0f0f0 !important;
+}
+.folder-list.text-left a {
   color: #f0f0f0 !important;
 }
 td[style*="border-left"] {
@@ -516,7 +519,8 @@ tr.tr_li:hover {
 }
 
 /* Icons and Logos */
-.col-lg-12.col-md-12.col-sm-12.col-xs-12 .alert.alert-info .fa.fa-info-circle {
+.col-lg-12.col-md-12.col-sm-12.col-xs-12 .alert.alert-info .fa.fa-info-circle,
+.col-lg-10 .alert.alert-info.m-b-none i {
   color: #31708f !important;
 }
 .col-lg-12.col-md-12.col-sm-12.col-xs-12.text-purple.animated.fadeIn i,
