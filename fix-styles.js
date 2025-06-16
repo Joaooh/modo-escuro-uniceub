@@ -25,37 +25,49 @@ function setupPeriodoFiltroIcons() {
 
   filtroElements.forEach((element) => {
     element.addEventListener("click", () => {
-      setTimeout(updateIconColors, 10);
+      setTimeout(updateIconColors, 0);
     });
   });
 }
 
-function setupGradeFiltroIcons() {
-  const filtroLinks = document.querySelectorAll('a.load[href*="/Academico/Disciplinas/Painel"]');
+function matriculaText() {
+  const matriculaTxt = document.querySelectorAll(
+    ".col-lg-6.col-md-6.col-sm-6.col-xs-6.text-left"
+  );
+  const matriculaTxt2 = document.querySelectorAll(
+    ".col-lg-6.col-md-6.col-sm-6.col-xs-6.text-right"
+  );
 
-  if (filtroLinks.length === 0) {
-    return;
-  }
+  const updateMatriculaTextLeft = () => {
+    matriculaTxt.forEach((link) => {
+      const b = link.querySelector(
+        ".col-lg-6.col-md-6.col-sm-6.col-xs-6.text-left b"
+      );
+      if (!b) return;
 
-  const updateIconColors = () => {
-    filtroLinks.forEach(link => {
-      const icon = link.querySelector('i.fa-filter');
-      if (!icon) return;
+      const isSelected = link.style.fontWeight === "bold";
+      const newColor = isSelected ? "rgb(224, 224, 224)" : "rgb(42, 42, 46)";
 
-      const isSelected = link.style.fontWeight === 'bold';
-      const newColor = isSelected ? '#9c2279' : '#e0e0e0';
-
-      icon.style.setProperty('color', newColor, 'important');
+      b.style.setProperty("color", newColor, "important");
     });
   };
 
-  updateIconColors();
+  const updateMatriculaTextRight = () => {
+    matriculaTxt2.forEach((link) => {
+      const b2 = link.querySelector(
+        ".col-lg-6.col-md-6.col-sm-6.col-xs-6.text-right b"
+      );
+      if (!b2) return;
 
-  filtroLinks.forEach(link => {
-    link.addEventListener('click', () => {
-      setTimeout(updateIconColors, 10);
+      const isSelected = link.style.fontWeight === "bold";
+      const newColor = isSelected ? "rgb(224, 224, 224)" : "rgb(42, 42, 46)";
+
+      b2.style.setProperty("color", newColor, "important");
     });
-  });
+  };
+
+  updateMatriculaTextLeft();
+  updateMatriculaTextRight();
 }
 
 function fixAllInlineStyles() {
@@ -157,7 +169,7 @@ function fixAllInlineStyles() {
 
   fixColor('i.fa-expand[style*="color:#000"]', "#f0f0f0");
   setupPeriodoFiltroIcons();
-  setupGradeFiltroIcons();
+  matriculaText();
 }
 
 function setupSidebarIconColorsPersistent() {

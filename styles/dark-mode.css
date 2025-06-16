@@ -69,6 +69,22 @@ td {
 }
 
 /* Internal Page Structure and Panels */
+.col-lg-12.col-md-12.col-sm-12.col-xs-12 strong,
+.col-lg-6.col-md-6.col-sm-6.col-xs-6.text-left,
+.col-lg-6.col-md-6.col-sm-6.col-xs-6.text-left .fa.fa-calendar,
+.col-lg-6.col-md-6.col-sm-6.col-xs-6.text-right,
+.col-lg-6.col-md-6.col-sm-6.col-xs-6.text-right .fa.fa-calendar,
+.col-lg-12.col-md-12.col-sm-12.col-xs-12.text-center,
+.progress-bar.progress-bar-default.col-lg-12 span,
+.col-lg-12.col-md-12.col-sm-12.col-xs-12 .fa.fa-pencil {
+  color: rgb(42, 42, 46) !important;
+}
+.progress-bar.progress-bar-default.col-lg-12 {
+  background-color: #1ab394 !important;
+}
+.progress.progress-striped.active.m-b-xs {
+  background-color: #e0e0e0 !important;
+}
 .alert.alert-info {
   color: #31708f !important;
   background-color: #d9edf7 !important;
