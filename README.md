@@ -33,6 +33,10 @@ You can install the extension using the following methods, depending on your bro
 
 ### 🦊 For Mozilla Firefox
 
+Option 1:
+- Download it directly from the [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/espaco-aluno-dark-mode/) store!
+
+Option 2:
 1.  Download the latest `firefox.zip` file directly from the project's [Releases](https://github.com/Joaooh/modo-escuro-uniceub/releases) page.
 2.  Unzip the file you just downloaded.
 3.  Open Firefox and navigate to `about:debugging#/runtime/this-firefox`.
@@ -136,6 +140,10 @@ Você pode instalar a extensão usando os métodos abaixo, dependendo do navegad
 
 ### 🦊 Para Mozilla Firefox
 
+Opção 1:
+- Baixe diretamente na loja [Firefox Add-ons](https://addons.mozilla.org/pt-BR/firefox/addon/espaco-aluno-dark-mode/)!
+
+Opção 2:
 1. Baixe o arquivo `firefox.zip` mais recente na página de [Releases](https://github.com/Joaooh/modo-escuro-uniceub/releases) do projeto.
 2. Extraia o arquivo baixado.
 3. No Firefox, vá para `about:debugging#/runtime/this-firefox`.
