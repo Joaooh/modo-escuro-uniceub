@@ -44,7 +44,7 @@ Option 2:
 5.  Select the `manifest.json` file from the extension folder.
 
 > The extension will be active until Firefox is closed.<br>
-> For permanent use, wait for a possible future release on the Mozilla Add-ons store.
+> For permanent use, use the Option 1!
 
 ### 🌐 For Google Chrome / Microsoft Edge
 
@@ -85,7 +85,7 @@ modo-escuro-uniceub/
 
 ## 📌 Compatibility
 
-| Browser  | Compatible |
+| Browser  | Compatibility |
 |----------|------------|
 | Firefox  | ✅ Fully compatible |
 | Chrome   | ✅ Fully compatible |
@@ -151,7 +151,7 @@ Opção 2:
 5. Selecione o arquivo `manifest.json` da pasta da extensão.
 
 > A extensão ficará ativa até o Firefox ser fechado.<br>
-> Para uso permanente, aguarde uma possível futura publicação na loja de Add-ons da Mozilla.
+> Para uso permanente, use a Opção 1!
 
 ### 🌐 Para Google Chrome / Microsoft Edge
 
@@ -192,7 +192,7 @@ modo-escuro-uniceub/
 
 ## 📌 Compatibilidade
 
-| Navegador | Compatível        |
+| Navegador | Compatibilidade        |
 |-----------|-------------------|
 | Firefox   | ✅ Totalmente compatível |
 | Chrome    | ✅ Totalmente compatível |
