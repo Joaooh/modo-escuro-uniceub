@@ -1,22 +1,25 @@
-[🇧🇷 Versão em Português](#versao-em-portugues)
+[🇧🇷 Versão em Português](#versão-em-português)
 
 # 🌓 UniCEUB Dark Mode
+
+[![GitHub release](https://img.shields.io/github/v/release/Joaooh/modo-escuro-uniceub)](https://github.com/Joaooh/modo-escuro-uniceub/releases)
+[![Mozilla Add-on version](https://img.shields.io/amo/v/espaco-aluno-dark-mode)](https://addons.mozilla.org/en-US/firefox/addon/espaco-aluno-dark-mode/)
 
 A browser extension that applies a **custom dark mode** to the **UniCEUB university website**. Ideal for browsing without straining your eyes.
 
 > ⚠️ This extension does not alter the functionality of the page — only its visual style.
 
----
+<br>
 
 ## 📷 Preview
 
-| Before | After (with Dark Mode) |
+| Dark Mode OFF | Dark Mode ON |
 |--------|------------------------|
-| <img src="screenshots/login-screen-before.png" width="400" alt="Original login screen"> | <img src="screenshots/login-screen-after.png" width="400" alt="Dark login screen"> |
-| <img src="screenshots/homepage-before.png" width="400" alt="Original homepage"> | <img src="screenshots/homepage-after.png" width="400" alt="Dark homepage"> |
-| <img src="screenshots/subjects-before.png" width="400" alt="Original subjects page"> | <img src="screenshots/subjects-after.png" width="400" alt="Dark subjects page"> |
+| <img src="screenshots/login-before.png" width="400" alt="Login screen Dark Mode OFF"> | <img src="screenshots/login-after.png" width="400" alt="Login screen Dark Mode ON"> |
+| <img src="screenshots/homepage-before.png" width="400" alt="Homepage Dark Mode OFF"> | <img src="screenshots/homepage-after.png" width="400" alt="Homepage Dark Mode ON"> |
+| <img src="screenshots/subjects-before.png" width="400" alt="Subjects page Dark Mode OFF"> | <img src="screenshots/subjects-after.png" width="400" alt="Subjects page Dark Mode ON"> |
 
----
+<br>
 
 ## ✨ Features
 
@@ -25,7 +28,7 @@ A browser extension that applies a **custom dark mode** to the **UniCEUB univers
 - Automatically activates on university pages
 - Lightweight: CSS injected dynamically
 
----
+<br>
 
 ## 🚀 How to Install
 
@@ -44,7 +47,9 @@ Option 2:
 5.  Select the `manifest.json` file from the extension folder.
 
 > The extension will be active until Firefox is closed.<br>
-> For permanent use, use the Option 1!
+> For permanent use, use Option 1!
+
+<br>
 
 ### 🌐 For Google Chrome / Microsoft Edge
 
@@ -54,7 +59,7 @@ Option 2:
 4.  Ensure "**Developer mode**" is enabled.
 4.  Click **"Load unpacked"** and select the extension's folder (`chrome`).
 
----
+<br>
 
 ## 🗂 Project Structure
 
@@ -71,17 +76,13 @@ modo-escuro-uniceub/
 │   └── popup.js          # The JavaScript that controls the popup's logic.
 └── icons/                # Extension icons for the toolbar and store listing.
 ```
-
----
+> ⚙️ Note: To support Chromium-based browsers, a `chromium-fixes.css` file and specific JS tweaks were added.  
 
 ## 🛠 Technologies Used
 
 - HTML
 - CSS
 - JavaScript
-- WebExtensions API (Firefox)
-
----
 
 ## 📌 Compatibility
 
@@ -91,13 +92,9 @@ modo-escuro-uniceub/
 | Chrome   | ✅ Fully compatible |
 | Edge     | ✅ Fully compatible |
 
----
-
 ## 🧪 Contributing
 
 Suggestions for improvements, new styles, or bug reports are welcome. Just open an [Issue](https://github.com/Joaooh/modo-escuro-uniceub/issues) or submit a [Pull Request](https://github.com/Joaooh/modo-escuro-uniceub/pulls).
-
----
 
 ## 📄 License
 
@@ -105,25 +102,25 @@ Distributed under the **MIT** license. See `LICENSE` for more information.
 
 ---
 
-<h2 id="versao-em-portugues">🇧🇷 Versão em Português</h2>
+### Versão em Português
 
-# 🌓 Modo Escuro UniCEUB
+## 🌓 Modo Escuro UniCEUB
 
 Uma extensão de navegador que aplica um **modo escuro personalizado** ao site da **universidade UniCEUB**. Ideal para navegar sem cansar os olhos.
 
 > ⚠️ Esta extensão não altera a funcionalidade da página — apenas seu estilo visual.
 
----
+<br>
 
 ## 📷 Prévia
 
-| Antes | Depois (com Modo Escuro) |
-|--------|--------------------------|
-| <img src="screenshots/login-screen-before.png" width="400" alt="Tela de login original"> | <img src="screenshots/login-screen-after.png" width="400" alt="Tela de login escura"> |
-| <img src="screenshots/homepage-before.png" width="400" alt="Página inicial original"> | <img src="screenshots/homepage-after.png" width="400" alt="Página inicial escura"> |
-| <img src="screenshots/subjects-before.png" width="400" alt="Página de disciplinas original"> | <img src="screenshots/subjects-after.png" width="400" alt="Página de disciplinas escura"> |
+| Modo Escuro DESLIGADO | Modo Escuro LIGADO |
+|-----------------------|---------------------|
+| <img src="screenshots/login-before.png" width="400" alt="Tela de login Modo Escuro DESLIGADO"> | <img src="screenshots/login-after.png" width="400" alt="Tela de login Modo Escuro LIGADO"> |
+| <img src="screenshots/homepage-before.png" width="400" alt="Página inicial Modo Escuro DESLIGADO"> | <img src="screenshots/homepage-after.png" width="400" alt="Página inicial Modo Escuro LIGADO"> |
+| <img src="screenshots/subjects-before.png" width="400" alt="Página de disciplinas Modo Escuro DESLIGADO"> | <img src="screenshots/subjects-after.png" width="400" alt="Página de disciplinas Modo Escuro LIGADO"> |
 
----
+<br>
 
 ## ✨ Funcionalidades
 
@@ -132,7 +129,7 @@ Uma extensão de navegador que aplica um **modo escuro personalizado** ao site d
 - Ativado automaticamente nas páginas da universidade
 - Leve: CSS injetado dinamicamente
 
----
+<br>
 
 ## 🚀 Como Instalar
 
@@ -153,6 +150,8 @@ Opção 2:
 > A extensão ficará ativa até o Firefox ser fechado.<br>
 > Para uso permanente, use a Opção 1!
 
+<br>
+
 ### 🌐 Para Google Chrome / Microsoft Edge
 
 1. Baixe o arquivo `chromium.zip` mais recente na página de [Releases](https://github.com/Joaooh/modo-escuro-uniceub/releases) do projeto.
@@ -161,7 +160,7 @@ Opção 2:
 4. Certifique-se de que o "**Modo do desenvolvedor**" está ativado.
 5. Clique em **"Carregar sem compactação"** e selecione a pasta da extensão (`chrome`).
 
----
+<br>
 
 ## 🗂 Estrutura do Projeto
 
@@ -178,17 +177,13 @@ modo-escuro-uniceub/
 │ └── popup.js            # Lógica do popup em JavaScript.
 └── icons/                # Ícones da extensão para barra de ferramentas e loja.
 ```
-
----
+> ⚙️ Nota: Para suportar navegadores Chromium, foi criado `chromium-fixes.css` e foram feitos ajustes no JS.
 
 ## 🛠 Tecnologias Utilizadas
 
 - HTML
 - CSS
 - JavaScript
-- WebExtensions API (Firefox)
-
----
 
 ## 📌 Compatibilidade
 
@@ -198,13 +193,9 @@ modo-escuro-uniceub/
 | Chrome    | ✅ Totalmente compatível |
 | Edge      | ✅ Totalmente compatível |
 
----
-
 ## 🧪 Contribuições
 
 Sugestões de melhorias, novos estilos ou relatórios de bugs são bem-vindos. Basta abrir uma [Issue](https://github.com/Joaooh/modo-escuro-uniceub/issues) ou enviar um [Pull Request](https://github.com/Joaooh/modo-escuro-uniceub/pulls).
-
----
 
 ## 📄 Licença
 

@@ -25,7 +25,6 @@ body {
   align-items: center;
 }
 
-/* Toggle Switch */
 .toggle-section {
   display: flex;
   align-items: center;
@@ -84,13 +83,11 @@ input:checked + .slider:before {
   transform: translateX(20px);
 }
 
-/* Divider */
 .divider {
   border-top: 1px solid #444;
   margin: 5px 0;
 }
 
-/* Credits Section */
 .credits-section {
   text-align: center;
   font-size: 0.8em;
@@ -109,21 +106,19 @@ input:checked + .slider:before {
   color: #8cb4ff !important;
   text-decoration: none;
   font-weight: bold;
-  font-size: 0.88em;
+  font-size: 0.9em;
 }
 
 .credits-section a:hover {
   text-decoration: underline;
 }
 
-/* Disclaimer */
 .credits-section .disclaimer {
-  font-size: 0.82em;
+  font-size: 0.84em;
   color: #a0a0a0;
   margin-bottom: 5px;
 }
 
-/* Disabled State */
 body.disabled-popup {
   opacity: 0.7;
   pointer-events: none;
