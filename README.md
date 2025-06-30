@@ -9,6 +9,8 @@ A browser extension that applies a **custom dark mode** to the **UniCEUB univers
 
 > ⚠️ This extension does not alter the functionality of the page — only its visual style.
 
+🛡️ **Privacy Policy:** Check [PRIVACY.md](./PRIVACY.md) for details on how your data is handled.
+
 <br>
 
 ## 📷 Preview
@@ -109,6 +111,8 @@ Distributed under the **MIT** license. See `LICENSE` for more information.
 Uma extensão de navegador que aplica um **modo escuro personalizado** ao site da **universidade UniCEUB**. Ideal para navegar sem cansar os olhos.
 
 > ⚠️ Esta extensão não altera a funcionalidade da página — apenas seu estilo visual.
+
+🛡️ **Política de Privacidade:** Confira o [PRIVACY.md](./PRIVACY.md) para saber como seus dados são tratados.
 
 <br>
 
