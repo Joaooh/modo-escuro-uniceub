@@ -76,6 +76,11 @@ li.active.OBG a .totalOBG {
   color: var(--white-primary) !important;
 }
 
+.cookies.clearfix {
+  background-color: var(--bg-light) !important;
+  color: var(--white-primary) !important;
+}
+
 /* ========================================= */
 /* LOGIN SCREEN                              */
 /* ========================================= */
@@ -499,6 +504,56 @@ a#a-collapse-0.collapse-link > div.ibox-title {
 
 .table-striped > tbody > tr:nth-of-type(1n + 2):hover {
   background-color: var(--bg-light-hover) !important;
+}
+
+/* ========================================= */
+/* "AUTOATENDIMENTO > PROCESSOS" SECTION     */
+/* ========================================= */
+
+.sweet-alert {
+  background-color: var(--bg-light) !important;
+}
+
+.help-block,
+.sweet-alert h2 {
+  color: var(--white-primary) !important;
+}
+
+.sa-button-container > .confirm {
+  background-color: rgb(221, 107, 85) !important;
+  box-shadow: rgba(221, 107, 85, 0.8) 0px 0px 2px,
+    rgba(0, 0, 0, 0.05) 0px 0px 0px 1px inset !important;
+}
+
+.panel-warning > .panel-heading,
+.panel-warning {
+  background-color: #f8ac59 !important;
+  border-color: #f8ac59 !important;
+}
+
+.issue-info a {
+  color: var(--light-blue) !important;
+}
+
+.timeline-item .content:hover {
+  background: var(--bg-light-hover) !important;
+}
+
+.timeline-item .content {
+  border-left: 1px solid var(--gray-border) !important;
+}
+
+.timeline-item {
+  border-bottom: 1px solid var(--gray-border) !important;
+}
+
+.fa.fa-exchange,
+.fa.text-muted {
+  border-bottom: var(--gray-border) !important;
+  border-left: var(--gray-border) !important;
+  border-top: var(--gray-border) !important;
+  background: var(--gray-border) !important;
+  color: var(--white-primary) !important;
 }
 
 /* ========================================= */

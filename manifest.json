@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Modo Escuro - Espaço Aluno",
-  "version": "1.4",
+  "version": "1.4.1",
   "description": "Deixa o Espaço Aluno do UniCEUB muito mais agradável aos olhos!",
   "permissions": ["storage", "scripting", "tabs"],
   "host_permissions": ["https://ea.uniceub.br/*"],
