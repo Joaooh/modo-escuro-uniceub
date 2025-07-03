@@ -2,9 +2,9 @@
 
 # 🌓 Modo Escuro - Espaço Aluno
 
-[![GitHub release](https://img.shields.io/github/v/release/Joaooh/modo-escuro-uniceub)](https://github.com/Joaooh/modo-escuro-uniceub/releases)
-[![Mozilla Add-on version](https://img.shields.io/amo/v/espaco-aluno-dark-mode)](https://addons.mozilla.org/pt-BR/firefox/addon/modo-escuro-espa%C3%A7o-aluno/)
-[![Chrome Web Store](https://img.shields.io/chrome-web-store/v/ccliokkicdfefeciihmheaffddcanhcb?label=chrome%20web%20store)](https://chromewebstore.google.com/detail/modo-escuro-espa%C3%A7o-aluno/ccliokkicdfefeciihmheaffddcanhcb)
+[![GitHub release](https://img.shields.io/github/v/release/Joaooh/modo-escuro-uniceub?&logo=github)](https://github.com/Joaooh/modo-escuro-uniceub/releases)
+[![Mozilla Add-on version](https://img.shields.io/amo/v/modo-escuro-espaço-aluno?label=version&logo=firefox-browser)](https://addons.mozilla.org/pt-BR/firefox/addon/modo-escuro-espa%C3%A7o-aluno/)
+[![Chrome Web Store](https://img.shields.io/chrome-web-store/v/ccliokkicdfefeciihmheaffddcanhcb?label=version&logo=google-chrome&logoColor=ffce43)](https://chromewebstore.google.com/detail/modo-escuro-espa%C3%A7o-aluno/ccliokkicdfefeciihmheaffddcanhcb?hl=pt-BR)
 
 Uma extensão de navegador que aplica um **modo escuro personalizado** ao site da **universidade UniCEUB**. Ideal para navegar sem cansar os olhos.
 
@@ -41,9 +41,12 @@ Você pode instalar a extensão usando os métodos abaixo, dependendo do navegad
 
 **Opção 1 (Recomendada):**
 
-* Baixe diretamente na loja [Firefox Add-ons](https://addons.mozilla.org/pt-BR/firefox/addon/espaco-aluno-dark-mode/)!
+* Baixe diretamente pela [Firefox Add-ons](https://addons.mozilla.org/pt-BR/firefox/addon/modo-escuro-espa%C3%A7o-aluno/)!
 
-**Atenção:** Se a versão do Firefox for antiga, a própria página da extensão na loja mostrará uma mensagem informando que é necessário atualizar o navegador — o botão "Adicionar ao Firefox" será substituído por um aviso. Isso acontece porque, nos laboratórios da universidade, a versão instalada (em `C:\Program Files`) não é atualizada com frequência.
+[![Mozilla Firefox](https://gist.githubusercontent.com/Joaooh/bd3b9ecf436bc547393cb09d64fac787/raw/8d049623503cb715684333d04a181c2a0e1c0aaa/firefox-add-on.png "Mozilla Firefox")](https://addons.mozilla.org/pt-BR/firefox/addon/modo-escuro-espa%C3%A7o-aluno/)
+
+> [!NOTE]
+> Se a versão do Firefox for antiga, a própria página da extensão na loja mostrará uma mensagem informando que é necessário atualizar o navegador — o botão "Adicionar ao Firefox" será substituído por um aviso. Isso acontece porque, nos laboratórios da universidade, a versão instalada (em `C:\Program Files`) não é atualizada com frequência.
 
 Para contornar isso:
 
@@ -70,12 +73,14 @@ Para contornar isso:
 **Opção 1 (Recomendada):**
 - Baixe diretamente pela [Chrome Web Store](https://chromewebstore.google.com/detail/modo-escuro-espa%C3%A7o-aluno/ccliokkicdfefeciihmheaffddcanhcb)!
 
+[![Google Chrome](https://gist.githubusercontent.com/Joaooh/bd3b9ecf436bc547393cb09d64fac787/raw/8d049623503cb715684333d04a181c2a0e1c0aaa/chrome-web-store.png "Google Chrome")](https://chromewebstore.google.com/detail/modo-escuro-espa%C3%A7o-aluno/ccliokkicdfefeciihmheaffddcanhcb)
+
 **Opção 2 (Modo desenvolvedor):**
 1. Baixe o arquivo `chromium.zip` mais recente na página de [Releases](https://github.com/Joaooh/modo-escuro-uniceub/releases) do projeto.
 2. Extraia o arquivo baixado.
 3. No Chrome/Edge, vá até a página de extensões (por exemplo, `chrome://extensions`).
 4. Certifique-se de que o "**Modo do desenvolvedor**" está ativado.
-5. Clique em **"Carregar sem compactação"** e selecione a pasta da extensão (`chrome`).
+5. Clique em **"Carregar sem compactação"** e selecione a pasta da extensão (`chromium`).
 
 <br>
 
@@ -124,6 +129,10 @@ Distribuído sob a licença **MIT**. Veja o arquivo `LICENSE` para mais informa�
 
 ## 🌓 Dark Mode - Espaço Aluno
 
+[![GitHub release](https://img.shields.io/github/v/release/Joaooh/modo-escuro-uniceub?&logo=github)](https://github.com/Joaooh/modo-escuro-uniceub/releases)
+[![Mozilla Add-on version](https://img.shields.io/amo/v/modo-escuro-espaço-aluno?label=version&logo=firefox-browser)](https://addons.mozilla.org/en-US/firefox/addon/modo-escuro-espa%C3%A7o-aluno/)
+[![Chrome Web Store](https://img.shields.io/chrome-web-store/v/ccliokkicdfefeciihmheaffddcanhcb?label=version&logo=google-chrome&logoColor=ffce43)](https://chromewebstore.google.com/detail/modo-escuro-espa%C3%A7o-aluno/ccliokkicdfefeciihmheaffddcanhcb?hl=en-US)
+
 A browser extension that applies a **custom dark mode** to the **UniCEUB university website**. Ideal for browsing without straining your eyes.
 
 > ⚠️ This extension does not alter the functionality of the page — only its visual style.
@@ -161,7 +170,10 @@ You can install the extension using the following methods, depending on your bro
 
 * Download it directly from the [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/espaco-aluno-dark-mode/) store!
 
-**Note:** If your Firefox version is outdated, the extension page on the store will display a message saying that an update is required — the "Add to Firefox" button will be replaced with a warning. This usually happens because the Firefox installation on university lab computers (located in `C:\Program Files`) is not frequently updated.
+[![Mozilla Firefox](https://gist.githubusercontent.com/Joaooh/bd3b9ecf436bc547393cb09d64fac787/raw/8d049623503cb715684333d04a181c2a0e1c0aaa/firefox-add-on.png "Mozilla Firefox")](https://addons.mozilla.org/en-US/firefox/addon/modo-escuro-espa%C3%A7o-aluno/)
+
+> [!NOTE]
+> If your Firefox version is outdated, the extension page on the store will display a message saying that an update is required — the "Add to Firefox" button will be replaced with a warning. This usually happens because the Firefox installation on university lab computers (located in `C:\Program Files`) is not frequently updated.
 
 To bypass this limitation:
 
@@ -186,7 +198,9 @@ To bypass this limitation:
 ### 🌐 For Google Chrome / Microsoft Edge
 
 **Option 1 (Recommended):**
-- Install it directly from the [Chrome Web Store](https://chromewebstore.google.com/detail/modo-escuro-espa%C3%A7o-aluno/ccliokkicdfefeciihmheaffddcanhcb)!
+- Download it directly from the [Chrome Web Store](https://chromewebstore.google.com/detail/modo-escuro-espa%C3%A7o-aluno/ccliokkicdfefeciihmheaffddcanhcb)!
+
+[![Google Chrome](https://gist.githubusercontent.com/Joaooh/bd3b9ecf436bc547393cb09d64fac787/raw/8d049623503cb715684333d04a181c2a0e1c0aaa/chrome-web-store.png "Google Chrome")](https://chromewebstore.google.com/detail/modo-escuro-espa%C3%A7o-aluno/ccliokkicdfefeciihmheaffddcanhcb?&hl=en-US)
 
 **Option 2 (Developer Mode):**
 1.  Download the latest `chromium.zip` file from the project's [Releases](https://github.com/Joaooh/modo-escuro-uniceub/releases) page.
