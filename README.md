@@ -73,7 +73,7 @@ Para contornar isso:
 **Opção 1 (Recomendada):**
 - Baixe diretamente pela [Chrome Web Store](https://chromewebstore.google.com/detail/modo-escuro-espa%C3%A7o-aluno/ccliokkicdfefeciihmheaffddcanhcb)!
 
-[![Google Chrome](https://gist.githubusercontent.com/Joaooh/bd3b9ecf436bc547393cb09d64fac787/raw/8d049623503cb715684333d04a181c2a0e1c0aaa/chrome-web-store.png "Google Chrome")](https://chromewebstore.google.com/detail/modo-escuro-espa%C3%A7o-aluno/ccliokkicdfefeciihmheaffddcanhcb)
+[![Google Chrome](https://gist.githubusercontent.com/Joaooh/bd3b9ecf436bc547393cb09d64fac787/raw/8d049623503cb715684333d04a181c2a0e1c0aaa/chrome-web-store.png "Google Chrome")](https://chromewebstore.google.com/detail/modo-escuro-espa%C3%A7o-aluno/ccliokkicdfefeciihmheaffddcanhcb?hl=pt-BR)
 
 **Opção 2 (Modo desenvolvedor):**
 1. Baixe o arquivo `chromium.zip` mais recente na página de [Releases](https://github.com/Joaooh/modo-escuro-uniceub/releases) do projeto.
@@ -168,7 +168,7 @@ You can install the extension using the following methods, depending on your bro
 
 **Option 1 (Recommended):**
 
-* Download it directly from the [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/espaco-aluno-dark-mode/) store!
+* Download it directly from the [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/modo-escuro-espa%C3%A7o-aluno/) store!
 
 [![Mozilla Firefox](https://gist.githubusercontent.com/Joaooh/bd3b9ecf436bc547393cb09d64fac787/raw/8d049623503cb715684333d04a181c2a0e1c0aaa/firefox-add-on.png "Mozilla Firefox")](https://addons.mozilla.org/en-US/firefox/addon/modo-escuro-espa%C3%A7o-aluno/)
 
@@ -200,7 +200,7 @@ To bypass this limitation:
 **Option 1 (Recommended):**
 - Download it directly from the [Chrome Web Store](https://chromewebstore.google.com/detail/modo-escuro-espa%C3%A7o-aluno/ccliokkicdfefeciihmheaffddcanhcb)!
 
-[![Google Chrome](https://gist.githubusercontent.com/Joaooh/bd3b9ecf436bc547393cb09d64fac787/raw/8d049623503cb715684333d04a181c2a0e1c0aaa/chrome-web-store.png "Google Chrome")](https://chromewebstore.google.com/detail/modo-escuro-espa%C3%A7o-aluno/ccliokkicdfefeciihmheaffddcanhcb?&hl=en-US)
+[![Google Chrome](https://gist.githubusercontent.com/Joaooh/bd3b9ecf436bc547393cb09d64fac787/raw/8d049623503cb715684333d04a181c2a0e1c0aaa/chrome-web-store.png "Google Chrome")](https://chromewebstore.google.com/detail/modo-escuro-espa%C3%A7o-aluno/ccliokkicdfefeciihmheaffddcanhcb?hl=en-US)
 
 **Option 2 (Developer Mode):**
 1.  Download the latest `chromium.zip` file from the project's [Releases](https://github.com/Joaooh/modo-escuro-uniceub/releases) page.
