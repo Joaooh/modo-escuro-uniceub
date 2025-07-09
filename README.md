@@ -71,7 +71,7 @@ Para contornar isso:
 ### 🌐 Para Google Chrome / Microsoft Edge
 
 **Opção 1 (Recomendada):**
-- Baixe diretamente pela [Chrome Web Store](https://chromewebstore.google.com/detail/modo-escuro-espa%C3%A7o-aluno/ccliokkicdfefeciihmheaffddcanhcb)!
+- Baixe diretamente pela [Chrome Web Store](https://chromewebstore.google.com/detail/modo-escuro-espa%C3%A7o-aluno/ccliokkicdfefeciihmheaffddcanhcb?hl=pt-BR)!
 
 [![Google Chrome](https://gist.githubusercontent.com/Joaooh/bd3b9ecf436bc547393cb09d64fac787/raw/8d049623503cb715684333d04a181c2a0e1c0aaa/chrome-web-store.png "Google Chrome")](https://chromewebstore.google.com/detail/modo-escuro-espa%C3%A7o-aluno/ccliokkicdfefeciihmheaffddcanhcb?hl=pt-BR)
 
@@ -198,7 +198,7 @@ To bypass this limitation:
 ### 🌐 For Google Chrome / Microsoft Edge
 
 **Option 1 (Recommended):**
-- Download it directly from the [Chrome Web Store](https://chromewebstore.google.com/detail/modo-escuro-espa%C3%A7o-aluno/ccliokkicdfefeciihmheaffddcanhcb)!
+- Download it directly from the [Chrome Web Store](https://chromewebstore.google.com/detail/modo-escuro-espa%C3%A7o-aluno/ccliokkicdfefeciihmheaffddcanhcb?hl=en-US)!
 
 [![Google Chrome](https://gist.githubusercontent.com/Joaooh/bd3b9ecf436bc547393cb09d64fac787/raw/8d049623503cb715684333d04a181c2a0e1c0aaa/chrome-web-store.png "Google Chrome")](https://chromewebstore.google.com/detail/modo-escuro-espa%C3%A7o-aluno/ccliokkicdfefeciihmheaffddcanhcb?hl=en-US)
 

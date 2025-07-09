@@ -250,6 +250,7 @@ nav.navbar.white-bg .navbar-header a.navbar-brand {
 }
 
 .text-center span[style*="color:#000000"],
+b[style*="color: #000000"],
 .font-color-dark-purple,
 .bubble__time div {
   color: var(--white-primary) !important;
@@ -276,9 +277,12 @@ nav.navbar.white-bg .navbar-header a.navbar-brand {
 .col-lg-6.col-md-6.col-sm-6.col-xs-6.text-right,
 .col-lg-6.col-md-6.col-sm-6.col-xs-6.text-right .fa.fa-calendar,
 .col-lg-12.col-md-12.col-sm-12.col-xs-12.text-center,
-.progress-bar.progress-bar-default.col-lg-12 span,
 .col-lg-12.col-md-12.col-sm-12.col-xs-12 .fa.fa-pencil {
-  color: var(--bg-light) !important;
+  color: var(--white-primary) !important;
+}
+
+.progress-bar.progress-bar-default.col-lg-12 span {
+  color: var(--bg-dark) !important;
 }
 
 .modal-content {
@@ -592,6 +596,14 @@ tr#row-andamento-0 table.issue-tracker {
 
 .text-center.mail-body h2 {
   color: var(--primary) !important;
+}
+
+.timeline-detalheitem-bg {
+  background-color: var(--bg-light) !important;
+}
+
+.img-shadow {
+  box-shadow: var(--gray-border) 0px 0px 3px 0px !important;
 }
 
 /* ========================================= */
