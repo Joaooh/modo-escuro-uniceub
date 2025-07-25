@@ -48,14 +48,32 @@ textarea {
 .icone-more_vert,
 .icone-sync,
 .icone-arrow_forward,
-.fa.fa-envelope-o.fa-timeline-item,
 .fa.fa-expand,
-.fa.fa-external-link {
+.fa.fa-external-link,
+i.fa.fa-cog.fa-5x.fa-spin,
+i.fa.fa-calendar-o.fa-timeline-item {
   color: var(--white-primary) !important;
 }
 
-i.fa.fa-cog.fa-5x.fa-spin {
+i.fa.fa-cog.fa-5x.fa-spin,
+i.fa.fa-calendar-o.fa-timeline-item,
+i.fa.fa-envelope-o.fa-timeline-item,
+i.fa.fa-file-text-o.fa-timeline-item {
   color: var(--primary) !important;
+}
+
+i.fa.fa-bug.fa-5x.text-muted,
+i.fa.fa-files-o.fa-5x.text-muted,
+i.fa.fa-meh-o.fa-2x.text-muted,
+i.text-muted.fa.fa-mobile-phone.fa-3x,
+i.text-muted.fa.fa-desktop.fa-3x,
+i.text-muted.fa.fa-wifi.fa-3x,
+i.text-muted.fa.fa-google.fa-3x,
+i.fa-university.fa.text-muted.fa-2x,
+i.fa-bus.fa.text-muted.fa-2x,
+i.fa-check.fa.text-muted.fa-2x,
+i.fa-file-text.fa.text-muted.fa-2x {
+  background: transparent !important;
 }
 
 .gray-bg {
@@ -207,7 +225,11 @@ nav.navbar.white-bg .navbar-header a.navbar-brand {
   box-shadow: var(--bg-dark) 0px 0px 3px !important;
 }
 
-.col-lg-12.col-md-12.col-sm-12.col-xs-12.text-justify strong {
+.col-lg-12.col-md-12.col-sm-12.col-xs-12.text-justify strong,
+.col-lg-12
+  div[data-bind="if:possuiUrl"]
+  a.btn.btn-default.btn-sm.visible-sm.visible-xs,
+.btn.btn-default.btn-sm.load.btn-block {
   color: var(--white-primary) !important;
 }
 
@@ -251,6 +273,7 @@ nav.navbar.white-bg .navbar-header a.navbar-brand {
 
 .text-center span[style*="color:#000000"],
 b[style*="color: #000000"],
+.text-center small b[style*="color:#000000"],
 .font-color-dark-purple,
 .bubble__time div {
   color: var(--white-primary) !important;
@@ -344,7 +367,8 @@ b[style*="color: #000000"],
 
 button#btnSend.btn--webchat.btn--primary,
 .sk-spinner-three-bounce div,
-.message__container__img {
+.message__container__img,
+.label.label-primary {
   background-color: var(--primary) !important;
 }
 
@@ -689,7 +713,8 @@ td.in-range.available:not(.daterangepicker td.off):hover {
 /* "TESOURARIA" SECTION                      */
 /* ========================================= */
 
-.text-purple {
+.text-purple,
+.col-lg-12.col-md-12.col-sm-12.col-xs-12.text-purple.animated.fadeIn {
   color: var(--white-primary) !important;
 }
 
@@ -719,6 +744,22 @@ div.btn-group.pull-right > a.btn.btn-default.btn-md,
 
 .panel {
   background-color: transparent !important;
+}
+
+table.issue-tracker.visible-xs * {
+  color: var(--white-primary) !important;
+}
+
+.row.m-t-xxs * {
+  color: var(--white-primary) !important;
+}
+
+tr.no-borders td.text-center * {
+  color: var(--white-primary) !important;
+}
+
+tr.subcabecalho-negociacao td .row * {
+  color: var(--bg-light) !important;
 }
 
 /* ========================================= */

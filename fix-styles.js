@@ -26,6 +26,15 @@ function activateDarkMode() {
     } catch (e) {}
   }
 
+  const overrideStyle = document.createElement("style");
+  overrideStyle.textContent = `
+  .ea-icon-matricula,
+  .ea-icon-matricula\\:regular {
+    background-image: url("${newIcons}") !important;
+  }
+`;
+  document.head.appendChild(overrideStyle);
+
   /* ========================================= */
   /* SWITCHERY & HOMEPAGE STAR ICON COLOR FIX  */
   /* ========================================= */
@@ -334,6 +343,34 @@ function activateDarkMode() {
   });
 
   setInterval(fixAndamentoButton, 3000);
+
+  /* ========================================= */
+  /* MESSAGE DOWNLOAD BUTTON COLOR FIX         */
+  /* ========================================= */
+
+  function fixDownloadButtons() {
+    const buttons = document.querySelectorAll("button.btn_dwn");
+    buttons.forEach((btn) => {
+      btn.style.setProperty("color", "#f1f1f1", "important");
+      const icon = btn.querySelector("i");
+      if (icon) {
+        icon.style.setProperty("color", "#f1f1f1", "important");
+      }
+    });
+  }
+
+  fixDownloadButtons();
+
+  const observer = new MutationObserver(() => {
+    fixDownloadButtons();
+  });
+
+  observer.observe(document.body, {
+    childList: true,
+    subtree: true,
+    attributes: true,
+    attributeFilter: ["style"],
+  });
 
   /* MINOR ICON COLOR FIX */
   document.querySelectorAll(".fa.fa-expand").forEach((icon) => {
