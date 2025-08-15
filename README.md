@@ -12,6 +12,13 @@ Uma extensão de navegador que aplica um **modo escuro personalizado** ao site d
 
 🛡️ **Política de Privacidade:** Confira o [PRIVACY.md](./PRIVACY.md) para saber como seus dados são tratados.
 
+> [!IMPORTANT]  
+> Este projeto foi oficialmente aceito pela instituição e o modo escuro será incorporado ao site em breve!  
+> Pretendo descontinuar esta extensão **30 dias após o lançamento oficial** no Espaço Aluno.  
+> Até lá, continuarei aplicando eventuais correções e melhorias.  
+>  
+> Agradeço a todos pelo apoio e feedback durante o desenvolvimento!
+
 <br>
 
 ## 📷 Prévia
@@ -138,6 +145,13 @@ A browser extension that applies a **custom dark mode** to the **UniCEUB univers
 > ⚠️ This extension does not alter the functionality of the page — only its visual style.
 
 🛡️ **Privacy Policy:** Check [PRIVACY.md](./PRIVACY.md) for details on how your data is handled.
+
+> [!IMPORTANT]  
+> This project has been officially approved by the institution, and the dark mode will soon be integrated into the website!  
+> I plan to discontinue this extension **30 days after the official launch** in the Espaço Aluno.  
+> Until then, I will continue applying occasional fixes and improvements.  
+>  
+> I thank everyone for their support and feedback during the development!
 
 <br>
 

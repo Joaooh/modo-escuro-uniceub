@@ -58,7 +58,8 @@ i.fa.fa-calendar-o.fa-timeline-item {
 i.fa.fa-cog.fa-5x.fa-spin,
 i.fa.fa-calendar-o.fa-timeline-item,
 i.fa.fa-envelope-o.fa-timeline-item,
-i.fa.fa-file-text-o.fa-timeline-item {
+i.fa.fa-file-text-o.fa-timeline-item,
+td.naolido-mail > i {
   color: var(--primary) !important;
 }
 
@@ -72,7 +73,8 @@ i.text-muted.fa.fa-google.fa-3x,
 i.fa-university.fa.text-muted.fa-2x,
 i.fa-bus.fa.text-muted.fa-2x,
 i.fa-check.fa.text-muted.fa-2x,
-i.fa-file-text.fa.text-muted.fa-2x {
+i.fa-file-text.fa.text-muted.fa-2x,
+i.fa.fa-compass {
   background: transparent !important;
 }
 
