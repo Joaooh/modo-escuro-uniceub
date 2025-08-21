@@ -598,7 +598,8 @@ tr.tr_li img[src="/Images/logoCEUB-Nome.png"] {
   filter: brightness(0) invert(1);
 }
 
-#timelineitenscontent tr.tr_li td a {
+#timelineitenscontent tr.tr_li td a,
+i.fa.fa-list-ul {
   color: var(--primary) !important;
 }
 

@@ -99,15 +99,17 @@ function activateDarkMode() {
     }
   });
 
-  /* ========================================= */
-  /* "VER EVENTO" BUTTON COLOR FIX (CALENDAR)  */
-  /* ========================================= */
+  /* ============================================= */
+  /* CALENDAR BUTTONS COLOR FIX ("VER" & "CRIAR")  */
+  /* ============================================= */
 
-  const el = document.getElementById("evento-link");
-  if (el) {
-    el.style.setProperty("background-color", "#9c2279", "important");
-    el.style.setProperty("border-color", "#9c2279", "important");
-  }
+  ["evento-link", "btn-criar-evento"].forEach((id) => {
+    const el = document.getElementById(id);
+    if (el) {
+      el.style.setProperty("background-color", "#9c2279", "important");
+      el.style.setProperty("border-color", "#9c2279", "important");
+    }
+  });
 
   /* ========================================= */
   /* KEEPS ACTIVE SEMESTER/FOLDER ICONS FIXED  */
