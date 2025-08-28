@@ -398,11 +398,6 @@ button#btnSend.btn--webchat.btn--primary,
 /* "ATIVIDADES COMPLEMENTARES" SECTION       */
 /* ========================================= */
 
-#painel-atividade-complementar #div-grupo-8 > .ibox-title,
-#div-grupo-2147483647 .ibox-title {
-  border-bottom: 3px solid var(--gray-secondary) !important;
-}
-
 .c3-gauge-value {
   fill: var(--white-primary) !important;
 }
@@ -417,14 +412,25 @@ button#btnSend.btn--webchat.btn--primary,
   border-color: var(--primary-hover) !important;
 }
 
-#div-tipo-atividade-70 .ibox-title {
+div.ibox.float-e-margins > a.collapse-link > div.ibox-title {
   border-bottom: 1px solid var(--gray-border) !important;
 }
 
+#div-grupo-1,
+#div-grupo-3,
+#div-grupo-8,
+#collapsegrupo1 .ibox,
+#collapsegrupo1 .ibox-title,
+#collapsegrupo3 .ibox,
+#collapsegrupo3 .ibox-title,
 #collapsegrupo8 .ibox,
 #collapsegrupo8 .ibox-title,
-#collapsegrupo8 .ibox-content,
-#div-grupo-8.ibox {
+#painel-atividade-complementar > #div-grupo-2147483647 > .ibox-title {
+  box-shadow: none !important;
+}
+
+div.ibox-content.collapse.in > div.ibox.float-e-margins,
+a.collapse-link {
   box-shadow: none !important;
 }
 
@@ -631,6 +637,25 @@ tr#row-andamento-0 table.issue-tracker {
 
 .img-shadow {
   box-shadow: var(--gray-border) 0px 0px 3px 0px !important;
+}
+
+ul#tag-list-contato > li > a {
+  background-color: var(--gray-secondary) !important;
+  border: 1px solid var(--gray-border) !important;
+}
+
+.ui-autocomplete > li.divider,
+.ui-autocomplete-custom {
+  color: var(--white-primary) !important;
+  background-color: #3e3e42 !important;
+}
+
+.ui-widget-content {
+  background: #3e3e42 !important;
+}
+
+ul.ui-autocomplete-custom {
+  background-color: #3e3e42 !important;
 }
 
 /* ========================================= */
