@@ -101,6 +101,14 @@ li.active.OBG a .totalOBG {
   color: var(--white-primary) !important;
 }
 
+h2.text-danger.text-center {
+  color: #ed5565 !important;
+}
+
+div.modal-header > h4.modal-title {
+  color: var(--primary) !important;
+}
+
 /* ========================================= */
 /* LOGIN SCREEN                              */
 /* ========================================= */
@@ -413,6 +421,12 @@ button#btnSend.btn--webchat.btn--primary,
 }
 
 div.ibox.float-e-margins > a.collapse-link > div.ibox-title {
+  border-bottom: 3px solid var(--gray-border) !important;
+}
+
+div#div-tipo-atividade-53 > a.collapse-link > div.ibox-title,
+div#div-tipo-atividade-63 > a.collapse-link > div.ibox-title,
+div#div-tipo-atividade-70 > a.collapse-link > div.ibox-title {
   border-bottom: 1px solid var(--gray-border) !important;
 }
 
