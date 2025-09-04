@@ -672,6 +672,26 @@ ul.ui-autocomplete-custom {
   background-color: #3e3e42 !important;
 }
 
+div#appMensagemEnviadaList
+  > div.ibox
+  > div.mail-box
+  > table.table.table-hover.table-mail
+  > tbody
+  > tr.read:hover {
+  background-color: var(--gray-secondary) !important;
+}
+
+div#appMensagem
+  > div.ibox
+  > div.mail-box-header
+  > div.mail-tools.tooltip-demo
+  > ul.tag-list
+  > li
+  > a {
+  background-color: var(--gray-secondary) !important;
+  border: 1px solid var(--gray-border) !important;
+}
+
 /* ========================================= */
 /* "SECRETARIA VIRTUAL" SECTION              */
 /* ========================================= */
