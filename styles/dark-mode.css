@@ -387,6 +387,59 @@ button#btnSend.btn--webchat.btn--primary,
   scrollbar-color: var(--primary) var(--gray-secondary) !important;
 }
 
+.ig-chat__main__footer {
+  border-top: 1px solid var(--gray-border) !important;
+  background: var(--bg-dark) !important;
+}
+
+.ig-chat__main__footer__send,
+.ig-chat__main__footer__send__input-text {
+  background: var(--gray-secondary) !important;
+  border: 1px solid var(--gray-border) !important;
+}
+
+.ig-chat__header__container-options__item,
+.ig-chat__header__container-options__item--others__list {
+  background: var(--bg-light) !important;
+}
+
+.ig-chat__header__container-options__item--others__list__item:hover {
+  background: var(--bg-light-hover) !important;
+}
+
+.ig-chat__main__content__separator,
+.ig-chat__main__content__separator span {
+  background: var(--bg-dark) !important;
+  color: var(--white-primary) !important;
+}
+
+.ig-chat__header__container-options__item--others__list__item__icon svg path,
+.ig-chat__header__container-options__item.ig-chat__header__container-options__item--others
+  svg
+  path,
+button.emoji-mart-search-icon svg path {
+  fill: var(--white-primary) !important;
+}
+
+.tippy-tooltip.light-border-theme,
+.emoji-mart-category-label span,
+.emoji-mart.emoji-mart-light {
+  background: var(--gray-secondary) !important;
+  color: var(--white-primary) !important;
+}
+
+.emoji-mart,
+.emoji-mart-bar,
+ul.emoji-mart-category-list > li > button,
+nav.emoji-mart-anchors > button.emoji-mart-anchor,
+button.emoji-mart-search-icon {
+  border: none !important;
+}
+
+span.emoji-mart-anchor-bar {
+  background: var(--primary-hover) !important;
+}
+
 /* ========================================= */
 /* SIDE NAVIGATION                           */
 /* ========================================= */
