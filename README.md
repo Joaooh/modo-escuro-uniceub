@@ -12,12 +12,12 @@ Uma extensão de navegador que aplica um **modo escuro personalizado** ao site d
 
 🛡️ **Política de Privacidade:** Confira o [PRIVACY.md](./PRIVACY.md) para saber como seus dados são tratados.
 
-> [!IMPORTANT]  
-> Este projeto foi oficialmente aceito pela instituição e o modo escuro será incorporado ao site em breve!  
-> Pretendo descontinuar esta extensão **30 dias após o lançamento oficial** no Espaço Aluno.  
-> Até lá, continuarei aplicando eventuais correções e melhorias.  
->  
-> Agradeço a todos pelo apoio e feedback durante o desenvolvimento!
+> [!IMPORTANT]
+> Este projeto foi oficialmente incorporado ao site do UniCEUB em **02/09/2025**. 🎉  
+> Após 30 dias da incorporação, a extensão será removida das lojas do Chrome e Firefox.  
+> No entanto, este repositório permanecerá ativo como referência e poderá receber atualizações pontuais, servindo também de apoio à equipe oficial de desenvolvimento.  
+>
+> Agradeço a todos pelo apoio e feedback durante todo o processo!
 
 <br>
 
@@ -147,11 +147,11 @@ A browser extension that applies a **custom dark mode** to the **UniCEUB univers
 🛡️ **Privacy Policy:** Check [PRIVACY.md](./PRIVACY.md) for details on how your data is handled.
 
 > [!IMPORTANT]  
-> This project has been officially approved by the institution, and the dark mode will soon be integrated into the website!  
-> I plan to discontinue this extension **30 days after the official launch** in the Espaço Aluno.  
-> Until then, I will continue applying occasional fixes and improvements.  
->  
-> I thank everyone for their support and feedback during the development!
+> This project was officially incorporated into the UniCEUB website on **02/09/2025**. 🎉  
+> After 30 days from incorporation, the extension will be removed from the Chrome and Firefox stores.  
+> However, this repository will remain active as a reference and may receive occasional updates, also serving as support for the official development team.  
+>
+> Thank you all for the support and feedback throughout the entire process!
 
 <br>
 
