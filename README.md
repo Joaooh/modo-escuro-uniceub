@@ -3,8 +3,6 @@
 # 🌓 Modo Escuro - Espaço Aluno
 
 [![GitHub release](https://img.shields.io/github/v/release/Joaooh/modo-escuro-uniceub?&logo=github)](https://github.com/Joaooh/modo-escuro-uniceub/releases)
-[![Mozilla Add-on version](https://img.shields.io/amo/v/modo-escuro-espaço-aluno?label=version&logo=firefox-browser)](https://addons.mozilla.org/pt-BR/firefox/addon/modo-escuro-espa%C3%A7o-aluno/)
-[![Chrome Web Store](https://img.shields.io/chrome-web-store/v/ccliokkicdfefeciihmheaffddcanhcb?label=version&logo=google-chrome&logoColor=ffce43)](https://chromewebstore.google.com/detail/modo-escuro-espa%C3%A7o-aluno/ccliokkicdfefeciihmheaffddcanhcb?hl=pt-BR)
 
 Uma extensão de navegador que aplica um **modo escuro personalizado** ao site da **universidade UniCEUB**. Ideal para navegar sem cansar os olhos.
 
@@ -12,12 +10,12 @@ Uma extensão de navegador que aplica um **modo escuro personalizado** ao site d
 
 🛡️ **Política de Privacidade:** Confira o [PRIVACY.md](./PRIVACY.md) para saber como seus dados são tratados.
 
-> [!IMPORTANT]
-> Este projeto foi oficialmente incorporado ao site do UniCEUB em **02/09/2025**. 🎉  
-> Após 30 dias da incorporação, a extensão será removida das lojas do Chrome e Firefox.  
-> No entanto, este repositório permanecerá ativo como referência e poderá receber atualizações pontuais, servindo também de apoio à equipe oficial de desenvolvimento.  
+> [!IMPORTANT]  
+> Este projeto foi incorporado oficialmente ao site do UniCEUB em **02/09/2025**. 🎉  
+> A extensão foi removida das lojas do Chrome e Firefox 30 dias depois, mas este repositório segue ativo como referência e poderá receber atualizações pontuais.  
+> A instalação ainda é possível via **modo temporário/desenvolvedor**.  
 >
-> Agradeço a todos pelo apoio e feedback durante todo o processo!
+> Agradeço a todos pelo apoio e feedback!
 
 <br>
 
@@ -42,28 +40,11 @@ Uma extensão de navegador que aplica um **modo escuro personalizado** ao site d
 
 ## 🚀 Como Instalar
 
-Você pode instalar a extensão usando os métodos abaixo, dependendo do navegador:
+Atualmente, a extensão não está mais disponível nas lojas oficiais (Chrome Web Store e Firefox Add-ons).  
+A instalação pode ser feita apenas pelo método temporário/desenvolvedor:
 
 ### 🦊 Para Mozilla Firefox
 
-**Opção 1 (Recomendada):**
-
-* Baixe diretamente pela [Firefox Add-ons](https://addons.mozilla.org/pt-BR/firefox/addon/modo-escuro-espa%C3%A7o-aluno/)!
-
-[![Mozilla Firefox](https://gist.githubusercontent.com/Joaooh/bd3b9ecf436bc547393cb09d64fac787/raw/8d049623503cb715684333d04a181c2a0e1c0aaa/firefox-add-on.png "Mozilla Firefox")](https://addons.mozilla.org/pt-BR/firefox/addon/modo-escuro-espa%C3%A7o-aluno/)
-
-> [!NOTE]
-> Se a versão do Firefox for antiga, a própria página da extensão na loja mostrará uma mensagem informando que é necessário atualizar o navegador — o botão "Adicionar ao Firefox" será substituído por um aviso. Isso acontece porque, nos laboratórios da universidade, a versão instalada (em `C:\Program Files`) não é atualizada com frequência.
-
-Para contornar isso:
-
-* Acesse [mozilla.org/firefox](https://www.mozilla.org/pt-BR/firefox/new/)
-* Baixe a versão mais recente
-* Ao abrir o instalador, será exibida a tela de permissão de administrador. Clique em **Não**
-* A instalação continuará normalmente sem exigir permissões administrativas
-* Diretório do navegador atualizado: `C:\Usuários\SeuNome\AppData\Local\Mozilla Firefox`
-
-**Opção 2 (Temporária):**
 1. Baixe o arquivo `firefox.zip` mais recente na página de [Releases](https://github.com/Joaooh/modo-escuro-uniceub/releases) do projeto.
 2. Extraia o arquivo baixado.
 3. No Firefox, vá para `about:debugging#/runtime/this-firefox`.
@@ -71,18 +52,11 @@ Para contornar isso:
 5. Selecione o arquivo `manifest.json` da pasta da extensão.
 
 > A extensão ficará ativa até o Firefox ser fechado.<br>
-> Para uso permanente, prefira a Opção 1!
 
 <br>
 
 ### 🌐 Para Google Chrome / Microsoft Edge
 
-**Opção 1 (Recomendada):**
-- Baixe diretamente pela [Chrome Web Store](https://chromewebstore.google.com/detail/modo-escuro-espa%C3%A7o-aluno/ccliokkicdfefeciihmheaffddcanhcb?hl=pt-BR)!
-
-[![Google Chrome](https://gist.githubusercontent.com/Joaooh/bd3b9ecf436bc547393cb09d64fac787/raw/8d049623503cb715684333d04a181c2a0e1c0aaa/chrome-web-store.png "Google Chrome")](https://chromewebstore.google.com/detail/modo-escuro-espa%C3%A7o-aluno/ccliokkicdfefeciihmheaffddcanhcb?hl=pt-BR)
-
-**Opção 2 (Modo desenvolvedor):**
 1. Baixe o arquivo `chromium.zip` mais recente na página de [Releases](https://github.com/Joaooh/modo-escuro-uniceub/releases) do projeto.
 2. Extraia o arquivo baixado.
 3. No Chrome/Edge, vá até a página de extensões (por exemplo, `chrome://extensions`).
@@ -137,8 +111,6 @@ Distribuído sob a licença **MIT**. Veja o arquivo `LICENSE` para mais informa�
 ## 🌓 Dark Mode - Espaço Aluno
 
 [![GitHub release](https://img.shields.io/github/v/release/Joaooh/modo-escuro-uniceub?&logo=github)](https://github.com/Joaooh/modo-escuro-uniceub/releases)
-[![Mozilla Add-on version](https://img.shields.io/amo/v/modo-escuro-espaço-aluno?label=version&logo=firefox-browser)](https://addons.mozilla.org/en-US/firefox/addon/modo-escuro-espa%C3%A7o-aluno/)
-[![Chrome Web Store](https://img.shields.io/chrome-web-store/v/ccliokkicdfefeciihmheaffddcanhcb?label=version&logo=google-chrome&logoColor=ffce43)](https://chromewebstore.google.com/detail/modo-escuro-espa%C3%A7o-aluno/ccliokkicdfefeciihmheaffddcanhcb?hl=en-US)
 
 A browser extension that applies a **custom dark mode** to the **UniCEUB university website**. Ideal for browsing without straining your eyes.
 
@@ -147,11 +119,11 @@ A browser extension that applies a **custom dark mode** to the **UniCEUB univers
 🛡️ **Privacy Policy:** Check [PRIVACY.md](./PRIVACY.md) for details on how your data is handled.
 
 > [!IMPORTANT]  
-> This project was officially incorporated into the UniCEUB website on **02/09/2025**. 🎉  
-> After 30 days from incorporation, the extension will be removed from the Chrome and Firefox stores.  
-> However, this repository will remain active as a reference and may receive occasional updates, also serving as support for the official development team.  
+> This project was officially integrated into the UniCEUB website on **09/02/2025**. 🎉  
+> The extension was removed from the Chrome and Firefox stores 30 days later, but this repository remains active as a reference and may receive occasional updates.  
+> Installation is still possible via **temporary/developer mode**.  
 >
-> Thank you all for the support and feedback throughout the entire process!
+> Thank you all for the support and feedback!
 
 <br>
 
@@ -176,28 +148,11 @@ A browser extension that applies a **custom dark mode** to the **UniCEUB univers
 
 ## 🚀 How to Install
 
-You can install the extension using the following methods, depending on your browser:
+The extension is no longer available on the official stores (Chrome Web Store and Firefox Add-ons).  
+It can now only be installed via the temporary/developer method:
 
 ### 🦊 For Mozilla Firefox
 
-**Option 1 (Recommended):**
-
-* Download it directly from the [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/modo-escuro-espa%C3%A7o-aluno/) store!
-
-[![Mozilla Firefox](https://gist.githubusercontent.com/Joaooh/bd3b9ecf436bc547393cb09d64fac787/raw/8d049623503cb715684333d04a181c2a0e1c0aaa/firefox-add-on.png "Mozilla Firefox")](https://addons.mozilla.org/en-US/firefox/addon/modo-escuro-espa%C3%A7o-aluno/)
-
-> [!NOTE]
-> If your Firefox version is outdated, the extension page on the store will display a message saying that an update is required — the "Add to Firefox" button will be replaced with a warning. This usually happens because the Firefox installation on university lab computers (located in `C:\Program Files`) is not frequently updated.
-
-To bypass this limitation:
-
-* Visit [mozilla.org/firefox](https://www.mozilla.org/en-US/firefox/new/)
-* Download the latest version
-* When the installer launches, a system prompt will ask for administrator permission. Click **No**
-* Firefox will be installed normally in your user profile, without requiring administrative permissions
-* Updated browser installation path: `C:\Users\YourName\AppData\Local\Mozilla Firefox`
-
-**Option 2 (Temporary Load):**
 1.  Download the latest `firefox.zip` file from the project's [Releases](https://github.com/Joaooh/modo-escuro-uniceub/releases) page.
 2.  Unzip the file you just downloaded.
 3.  Open Firefox and navigate to `about:debugging#/runtime/this-firefox`.
@@ -205,18 +160,11 @@ To bypass this limitation:
 5.  Select the `manifest.json` file from the extension folder.
 
 > The extension will be active until Firefox is closed.<br>
-> For permanent use, prefer Option 1!
 
 <br>
 
 ### 🌐 For Google Chrome / Microsoft Edge
 
-**Option 1 (Recommended):**
-- Download it directly from the [Chrome Web Store](https://chromewebstore.google.com/detail/modo-escuro-espa%C3%A7o-aluno/ccliokkicdfefeciihmheaffddcanhcb?hl=en-US)!
-
-[![Google Chrome](https://gist.githubusercontent.com/Joaooh/bd3b9ecf436bc547393cb09d64fac787/raw/8d049623503cb715684333d04a181c2a0e1c0aaa/chrome-web-store.png "Google Chrome")](https://chromewebstore.google.com/detail/modo-escuro-espa%C3%A7o-aluno/ccliokkicdfefeciihmheaffddcanhcb?hl=en-US)
-
-**Option 2 (Developer Mode):**
 1.  Download the latest `chromium.zip` file from the project's [Releases](https://github.com/Joaooh/modo-escuro-uniceub/releases) page.
 2.  Unzip the file you just downloaded.
 3.  Open Chrome/Edge and go to the extensions page (e.g., `chrome://extensions`).
