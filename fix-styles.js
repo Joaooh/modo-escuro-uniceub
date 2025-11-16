@@ -1,41 +1,5 @@
 function activateDarkMode() {
   /* ========================================= */
-  /* SVG COLOR CHANGE                          */
-  /* ========================================= */
-
-  const newIcons =
-    "https://gist.githubusercontent.com/Joaooh/bd3b9ecf436bc547393cb09d64fac787/raw/3ed04e6743262ead677c9c16d2195d1707b4f3ba/academico-v2.svg";
-
-  document.querySelectorAll("[style]").forEach((el) => {
-    if (el.style.backgroundImage.includes("icons/icons.svg")) {
-      el.style.backgroundImage = `url("${newIcons}")`;
-    }
-  });
-
-  for (const sheet of document.styleSheets) {
-    try {
-      for (const rule of sheet.cssRules) {
-        if (
-          rule.style &&
-          rule.style.backgroundImage &&
-          rule.style.backgroundImage.includes("icons/icons.svg")
-        ) {
-          rule.style.backgroundImage = `url("${newIcons}")`;
-        }
-      }
-    } catch (e) {}
-  }
-
-  const overrideStyle = document.createElement("style");
-  overrideStyle.textContent = `
-  .ea-icon-matricula,
-  .ea-icon-matricula\\:regular {
-    background-image: url("${newIcons}") !important;
-  }
-`;
-  document.head.appendChild(overrideStyle);
-
-  /* ========================================= */
   /* SWITCHERY & HOMEPAGE STAR ICON COLOR FIX  */
   /* ========================================= */
 

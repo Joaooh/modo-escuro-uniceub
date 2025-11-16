@@ -36,6 +36,12 @@ td {
   color: #fff !important;
 }
 
+.btn-primary:hover,
+.btn.btn-sm.btn-purple:hover,
+.btn.btn-primary.btn-purple:hover {
+  background-color: #5a5a5e !important;
+}
+
 input,
 button,
 select,
@@ -74,6 +80,8 @@ i.fa-university.fa.text-muted.fa-2x,
 i.fa-bus.fa.text-muted.fa-2x,
 i.fa-check.fa.text-muted.fa-2x,
 i.fa-file-text.fa.text-muted.fa-2x,
+.fa.fa-calculator.fa-5x.text-muted,
+.fa.fa-calendar-o.fa-5x.text-muted,
 i.fa.fa-compass {
   background: transparent !important;
 }
@@ -107,6 +115,15 @@ h2.text-danger.text-center {
 
 div.modal-header > h4.modal-title {
   color: var(--primary) !important;
+}
+
+.icon,
+.fa-envelope-o,
+.fa-star,
+.fa-calendar-o,
+.fa-toggle-on,
+.fa-bullhorn {
+  filter: brightness(1.6) hue-rotate(15deg);
 }
 
 /* ========================================= */
@@ -291,6 +308,7 @@ b[style*="color: #000000"],
 
 #calendar h2 {
   color: #b83392 !important;
+  filter: brightness(1.6) hue-rotate(15deg);
 }
 
 .fc-event-container a {
@@ -305,13 +323,22 @@ b[style*="color: #000000"],
   border-top: 1px solid var(--gray-border) !important;
 }
 
-.col-lg-6.col-md-6.col-sm-6.col-xs-6.text-left,
-.col-lg-6.col-md-6.col-sm-6.col-xs-6.text-left .fa.fa-calendar,
-.col-lg-6.col-md-6.col-sm-6.col-xs-6.text-right,
-.col-lg-6.col-md-6.col-sm-6.col-xs-6.text-right .fa.fa-calendar,
-.col-lg-12.col-md-12.col-sm-12.col-xs-12.text-center,
-.col-lg-12.col-md-12.col-sm-12.col-xs-12 .fa.fa-pencil {
-  color: var(--white-primary) !important;
+tr[style*="background-color:#FECB08"]
+  > td.col-lg-12
+  > div.row
+  > .col-lg-12.col-md-12.col-sm-12.col-xs-12
+  strong,
+.col-lg-12.col-md-12.col-sm-12.col-xs-12.text-center > small,
+.col-lg-12.col-md-12.col-sm-12.col-xs-12 > .fa.fa-pencil::before,
+.col-lg-6.col-md-6.col-sm-6.col-xs-6.text-left > small,
+.col-lg-6.col-md-6.col-sm-6.col-xs-6.text-right > small,
+.col-lg-6.col-md-6.col-sm-6.col-xs-6.text-left
+  > small
+  > i.fa.fa-calendar::before,
+.col-lg-6.col-md-6.col-sm-6.col-xs-6.text-right
+  > small
+  > i.fa.fa-calendar::before {
+  color: black !important;
 }
 
 .progress-bar.progress-bar-default.col-lg-12 span {
@@ -650,7 +677,8 @@ a#a-collapse-0.collapse-link > div.ibox-title {
   border-bottom: 1px solid var(--gray-border) !important;
 }
 
-.fa.fa-exchange,
+.col-lg-2.col-md-2.col-sm-2.col-xs-1.date.visible-lg.visible-md
+  > .fa.fa-exchange,
 .fa.text-muted {
   border-bottom: var(--gray-border) !important;
   border-left: var(--gray-border) !important;
@@ -726,6 +754,12 @@ ul.ui-autocomplete-custom {
 }
 
 div#appMensagemEnviadaList
+  > div.ibox
+  > div.mail-box
+  > table.table.table-hover.table-mail
+  > tbody
+  > tr.read:hover,
+div#appMensagensRemovidas
   > div.ibox
   > div.mail-box
   > table.table.table-hover.table-mail
@@ -950,4 +984,25 @@ ul[role="menu"] li:not(.disabled) a:hover {
 .selectize-dropdown .option.active {
   background-color: #4a4a4e !important;
   color: var(--white-primary) !important;
+}
+
+/* ========================================= */
+/* "QUESTIONÁRIO" SECTION                    */
+/* ========================================= */
+
+div.modal-content > .modal-header {
+  border-bottom: 1px solid var(--gray-border) !important;
+}
+
+div.modal-content > .modal-header h4 {
+  color: var(--primary) !important;
+}
+
+div.modal-footer {
+  border-top: 1px solid var(--gray-border) !important;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  border-color: var(--white-primary) !important;
 }
