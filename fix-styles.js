@@ -19,25 +19,25 @@ function activateDarkMode() {
         switchery.style.setProperty(
           "background-color",
           colorToUse,
-          "important"
+          "important",
         );
         switchery.style.setProperty("border-color", colorToUse, "important");
         switchery.style.setProperty(
           "box-shadow",
           `${colorToUse} 0px 0px 0px 11px inset`,
-          "important"
+          "important",
         );
       } else {
         switchery.style.setProperty(
           "background-color",
           inactiveColor,
-          "important"
+          "important",
         );
         switchery.style.setProperty("border-color", inactiveColor, "important");
         switchery.style.setProperty(
           "box-shadow",
           `${inactiveColor} 0px 0px 0px 0px inset`,
-          "important"
+          "important",
         );
       }
     });
@@ -101,7 +101,7 @@ function activateDarkMode() {
             ".folder-list a i.fa-inbox, " +
             ".folder-list a i.fa-newspaper-o, " +
             ".folder-list a i.fa-send, " +
-            ".folder-list a i.fa-trash-o"
+            ".folder-list a i.fa-trash-o",
         )
         .forEach(fixIconColor);
     }
@@ -120,14 +120,14 @@ function activateDarkMode() {
             if (node.nodeType === 1) {
               if (
                 node.matches(
-                  "i.fa-filter, i.fa-folder, i.fa-inbox, i.fa-newspaper-o, i.fa-send, i.fa-trash-o"
+                  "i.fa-filter, i.fa-folder, i.fa-inbox, i.fa-newspaper-o, i.fa-send, i.fa-trash-o",
                 )
               ) {
                 fixIconColor(node);
               } else {
                 node
                   .querySelectorAll(
-                    "i.fa-filter, i.fa-folder, i.fa-inbox, i.fa-newspaper-o, i.fa-send, i.fa-trash-o"
+                    "i.fa-filter, i.fa-folder, i.fa-inbox, i.fa-newspaper-o, i.fa-send, i.fa-trash-o",
                   )
                   .forEach(fixIconColor);
               }
@@ -154,13 +154,18 @@ function activateDarkMode() {
   function fixBorderLeftColor(node) {
     if (node.nodeType !== 1) return;
 
+    const primary =
+      getComputedStyle(document.documentElement)
+        .getPropertyValue("--primary")
+        .trim() || "#9c2279";
+
     if (node.matches("tr[data-mensagem]")) {
       const targetTd = node.querySelector('td[style*="border-left"]');
       if (targetTd) {
         targetTd.style.setProperty(
           "border-left",
-          "2px solid var(--primary)",
-          "important"
+          `2px solid ${primary}`,
+          "important",
         );
       }
     }
@@ -171,8 +176,8 @@ function activateDarkMode() {
     ) {
       node.style.setProperty(
         "border-left",
-        "2px solid var(--primary)",
-        "important"
+        `2px solid ${primary}`,
+        "important",
       );
     }
   }
@@ -278,7 +283,7 @@ function activateDarkMode() {
 
   document
     .querySelectorAll(
-      ".modal-content > .modal-body.text-center > h1.text-primary"
+      ".modal-content > .modal-body.text-center > h1.text-primary",
     )
     .forEach((h1) => {
       h1.style.setProperty("color", "var(--primary)", "important");

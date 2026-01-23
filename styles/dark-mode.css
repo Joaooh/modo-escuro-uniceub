@@ -338,7 +338,7 @@ tr[style*="background-color:#FECB08"]
 .col-lg-6.col-md-6.col-sm-6.col-xs-6.text-right
   > small
   > i.fa.fa-calendar::before {
-  color: black !important;
+  color: white !important;
 }
 
 .progress-bar.progress-bar-default.col-lg-12 span {
@@ -651,7 +651,8 @@ a#a-collapse-0.collapse-link > div.ibox-title {
 
 .sa-button-container > .confirm {
   background-color: rgb(221, 107, 85) !important;
-  box-shadow: rgba(221, 107, 85, 0.8) 0px 0px 2px,
+  box-shadow:
+    rgba(221, 107, 85, 0.8) 0px 0px 2px,
     rgba(0, 0, 0, 0.05) 0px 0px 0px 1px inset !important;
 }
 
