@@ -260,6 +260,19 @@ nav.navbar.white-bg .navbar-header a.navbar-brand {
   color: var(--white-primary) !important;
 }
 
+.legend.disciplina {
+  border-top: 1px solid var(--gray-border) !important;
+}
+
+.legend span,
+.btn-link.btn--primary i {
+  color: var(--white-primary) !important;
+}
+
+.btn-link.btn--primary:hover {
+  background-color: var(--bg-light-hover) !important;
+}
+
 .hr-line-dashed.no-margins.no-padding.m-n {
   border-top: 1px dashed var(--gray-border) !important;
   color: var(--bg-light) !important;
@@ -918,6 +931,10 @@ tr.subcabecalho-negociacao td .row * {
 
 li.divider {
   background-color: var(--gray-border) !important;
+}
+
+.wizard.vertical > .steps {
+  border-right: 1px solid var(--gray-border) !important;
 }
 
 ul[role="tablist"] li {
