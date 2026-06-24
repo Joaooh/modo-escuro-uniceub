@@ -351,7 +351,7 @@ tr[style*="background-color:#FECB08"]
 .col-lg-6.col-md-6.col-sm-6.col-xs-6.text-right
   > small
   > i.fa.fa-calendar::before {
-  color: white !important;
+  color: black !important;
 }
 
 .progress-bar.progress-bar-default.col-lg-12 span {
@@ -364,7 +364,11 @@ tr[style*="background-color:#FECB08"]
 }
 
 .modal-body h1 {
-  color: var(--primary) !important;
+  color: var(--white-primary) !important;
+}
+
+.espaco-item {
+  background: var(--primary) !important;
 }
 
 /* ========================================= */
@@ -514,7 +518,7 @@ span.emoji-mart-anchor-bar {
 }
 
 div.ibox.float-e-margins > a.collapse-link > div.ibox-title {
-  border-bottom: 3px solid var(--gray-border) !important;
+  border-bottom: 1px solid var(--gray-border) !important;
 }
 
 div#div-tipo-atividade-53 > a.collapse-link > div.ibox-title,
@@ -1012,8 +1016,13 @@ div.modal-content > .modal-header {
   border-bottom: 1px solid var(--gray-border) !important;
 }
 
-div.modal-content > .modal-header h4 {
-  color: var(--primary) !important;
+div.modal-header {
+  background-color: var(--primary) !important;
+}
+
+.modal-header h4 {
+  color: var(--white-primary) !important;
+  font-weight: bold !important;
 }
 
 div.modal-footer {
